@@ -131,15 +131,15 @@ const config = {
     }),
 };
 
-module.exports = config;
+// module.exports = config;
 
-// module.exports = {
-//   // ...
-//   url: 'https://altairdocs.github.io', // Your website URL
-//   baseUrl: '/',
-//   projectName: 'altair.github.io',
-//   organizationName: 'AzureSphereCloudEnabledAltair8800',
-//   trailingSlash: false,
-//   title: 'Altair',
-//   // ...
-// };
+module.exports = {
+  // ...
+  url: 'https://gloveboxes.github.io/AltairEverywhereDocs', // Your website URL
+  baseUrl: '/',
+  projectName: 'AltairEverywhereDocs',
+  organizationName: 'gloveboxes',
+  trailingSlash: false,
+  title: 'Altair 8800 Everywhere',
+  // ...
+};
