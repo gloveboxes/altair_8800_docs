@@ -1,8 +1,0 @@
-{
-  "label": "Azure anomaly detector",
-  "position": 11,
-  "link": {
-    "type": "generated-index",
-    "description": "Learn how to detect weather anomalies with Azure Anomaly Detector."
-  }
-}

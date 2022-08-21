@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Altair web terminal
 
-The Altair web terminal is a remote terminal command prompt for the Altair emulator. The web terminal is a static web app and is hosted in your web browser and connects to the Altair emulator running on the Azure Sphere device. When the web terminal connects, the Altair terminal reports the emulator and CP/M versions, and you can start to use the Altair.
+The Altair web terminal is a remote terminal command prompt for the Altair emulator. The web terminal is a static web app and is hosted in your web browser and connects to the Altair emulator. When the web terminal connects, the Altair terminal reports the emulator and CP/M versions, and you can start to use the Altair.
 
 The Altair web terminal url is [http://aterminal.z8.web.core.windows.net/](http://aterminal.z8.web.core.windows.net/).
 
@@ -15,42 +15,6 @@ Note, there are links on the web terminal to the retro games GitHub repo, the do
 ## Ten-minute video introduction to the Altair emulator
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uTBHzwm11xM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Power management
-
-The Altair emulator auto sleeps after 10 minutes of terminal input or output. If you have the Mikroe 8800 Retro 8x8 LED Click attached to the Azure Sphere device it flashes **B** every 30 seconds to remind you that the Altair is asleep.
-
-The display flashes **B** to remind you that you need to press button **B** to wake up the Altair emulator.
-
-### Power control
-
-You can run the **power** command from the Altair web terminal CP/M command prompt. The **power** management app enables you to control power management behavior.
-
-The power management options include
-
-- Disable auto-sleep
-
-    ```cpm
-    power d
-    ```
-
-- Enable auto-sleep
-
-    ```cpm
-    power e
-    ```
-
-- Force the Altair to sleep. You can wake the Altair by pressing button **B** on the Azure Sphere device.
-
-    ```cpm
-    power s
-    ```
-
-- Set the LED brightness level
-
-    ```cpm
-    power [0-9]
-    ```
 
 ## Introduction to CP/M
 

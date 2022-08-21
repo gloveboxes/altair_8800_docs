@@ -1,8 +1,0 @@
-{
-  "label": "Deploy the Altair",
-  "position":5,
-  "link": {
-    "type": "generated-index",
-    "description": "Learn how to deploy the Altair emulator."
-  }
-}

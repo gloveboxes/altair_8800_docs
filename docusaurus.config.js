@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Altair Emulator',
-  tagline: 'Altair Emulator on Azure Sphere',
+  tagline: 'Altair Emulator Everywhere',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -59,7 +59,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Altair on Azure Sphere',
+        title: 'Altair Everywhere',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -86,7 +86,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Altair on Azure Sphere',
+                label: 'Altair Everywhere',
                 to: '/',
               },
             ],
