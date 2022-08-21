@@ -63,7 +63,7 @@ Here are some CP/M commands to get you started:
 - Copy Microsoft BASIC `mbasic.com` from drive A to drive B.
 
     ```cpm
-    pip newhw.com=hw.com
+    a:pip b:mbasic.com.com=a:mbasic.com
     ```
 
 - List the contents of a file.
