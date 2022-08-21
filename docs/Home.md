@@ -40,7 +40,7 @@ The following limitations apply to test-drive:
 1. You'll lose any changes you make when you disconnect or close the test-drive web terminal.
 1. Only one person at a time can connect to the test-drive emulator. If you can't connect, then try again in 30-minutes.
 
-## Running your own Altair
+## Run the Altair locally
 
 The Altair emulator runs on desktop and device operating systems. The [source code](https://github.com/gloveboxes/Altair8800.Emulator.UN-X) is the same, but on devices there are some extended experiences. The Altair emulator has been tested on the following desktop operating systems and devices.
 
