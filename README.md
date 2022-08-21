@@ -1,3 +1,6 @@
+[![pages-build-deployment](https://github.com/gloveboxes/altair_8800_posix_docs/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/gloveboxes/altair_8800_posix_docs/actions/workflows/pages/pages-build-deployment)
+
+
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
