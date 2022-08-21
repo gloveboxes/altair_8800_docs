@@ -44,7 +44,7 @@ The following limitations apply to test-drive:
 
 The Altair emulator runs on desktop and device operating systems. The [source code](https://github.com/gloveboxes/Altair8800.Emulator.UN-X) is the same, but on devices there are some extended experiences. The Altair emulator has been tested on the following desktop operating systems and devices.
 
-### Support desktop operating systems
+### Supported desktop operating systems
 
 The **fastest** way to run the Altair emulator is on your computer. The Altair emulator runs on [POSIX](https://en.wikipedia.org/wiki/POSIX) compatible operating systems including, Linux, Windows with [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install), macOS on Apple Silicon and Intel.
 
