@@ -14,3 +14,4 @@ For Docker users go to the [Docker section](../02-Deploy-Altair.md), otherwise f
 1. Install the required libraries.
 1. Clone the Altair emulator repository.
 1. Build the Altair emulator project.
+
