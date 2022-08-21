@@ -27,7 +27,7 @@ Optionally, the project integrates free weather and pollution cloud services fro
 
 This project is based on the [Azure Sphere Cloud-Enabled Altair 8800](https://github.com/AzureSphereCloudEnabledAltair8800/AzureSphereAltair8800_V2) as featured on the Register "[Microsoft adds cloud enablement to 1970s Altair 8800 tech](https://www.theregister.com/2021/07/16/altair_redux/)".
 
-## Test drive retro software development and gaming
+## Test drive the Altair in the cloud
 
 The **easiest** way to try the Altair emulator is from your web browser. Select the following link, [Test Drive the Altair 8800 emulator](http://aterminal.z8.web.core.windows.net/?altair=altair.westus2.cloudapp.azure.com), and open the link in a new browser tab. The Altair web terminal will open, select **Connect** to start a 30-minute session. The web terminal connects to an instance of the emulator running in an [Azure Container Instance](https://azure.microsoft.com/services/container-instances/).
 
