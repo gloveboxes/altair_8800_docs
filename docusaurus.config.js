@@ -38,7 +38,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/gloveboxes/altair-docs/tree/main',
+            'https://github.com/gloveboxes/altair_8800_posix_docs/tree/main',
         },
         blog:false,
         // blog: {
