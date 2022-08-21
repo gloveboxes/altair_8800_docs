@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Altair 8800 Everywhere',
   tagline: 'Altair 8800 Everywhere',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://gloveboxes.github.io/', // Your website URL
+  baseUrl: '/AltairEverywhereDocs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
@@ -131,15 +131,15 @@ const config = {
     }),
 };
 
-// module.exports = config;
+module.exports = config;
 
-module.exports = {
-  // ...
-  url: 'https://gloveboxes.github.io/AltairEverywhereDocs', // Your website URL
-  baseUrl: '/',
-  projectName: 'AltairEverywhereDocs',
-  organizationName: 'gloveboxes',
-  trailingSlash: false,
-  title: 'Altair 8800 Everywhere',
-  // ...
-};
+// module.exports = {
+//   // ...
+//   url: 'https://gloveboxes.github.io/', // Your website URL
+//   baseUrl: '/AltairEverywhereDocs/',
+//   projectName: 'AltairEverywhereDocs',
+//   organizationName: 'gloveboxes',
+//   trailingSlash: false,
+//   title: 'Altair 8800 Everywhere',
+//   // ...
+// };
