@@ -9,7 +9,7 @@ const config = {
   title: 'Altair 8800 Everywhere',
   tagline: 'Altair 8800 Everywhere',
   url: 'https://gloveboxes.github.io/', // Your website URL
-  baseUrl: '/AltairEverywhereDocs/',
+  baseUrl: '/altair_8800_posix_docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
