@@ -167,9 +167,11 @@ Typically, input ports will read data loaded by an output port.
 | 30   | Query seconds timer status. Enabled or expired (true or false) |
 | 31   | Query publish JSON pending status. Enabled or expired (true or false) |
 | 32   | Query publish weather pending status. Enabled or expired (true or false) |
-| 33   | GetFile end-of-file (true or false) |
+| 68  | devget eof |
+| 69  | Is network ready |
 | 200  | Read loaded byte stream |
-| 201  | Read GetFile file stream |
+| 201  | Read webget file stream |
+| 202  | Read devget file stream |
 
 **Notes.**
 

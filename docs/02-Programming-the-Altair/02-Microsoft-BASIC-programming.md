@@ -63,7 +63,7 @@ Microsoft BASIC-80 is included on drive A.
 1. Run the following command to start your BASIC application from the CP/M command prompt.
 
     ```cpm
-    mbasic time
+    mbasic test
     ```
 
 You can learn more about BASIC from the following BASIC applications included with the Altair emulator:
