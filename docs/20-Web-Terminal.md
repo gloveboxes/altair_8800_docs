@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# Altair web terminal
+# Web terminal
 
 The Altair web terminal is a remote terminal command prompt for the Altair emulator. The web terminal is a static web app and is hosted in your web browser and connects to the Altair emulator. When the web terminal connects, the Altair terminal reports the emulator and CP/M versions, and you can start to use the Altair.
 

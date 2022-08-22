@@ -22,17 +22,8 @@ The easiest way to install Raspberry Pi OS is to use the latest version of the [
 
 If you are building the Altair project on a Raspberry Pi with a [Raspberry Pi PI Sense HAT](https://www.raspberrypi.com/products/sense-hat/) then you need to enable the I2C bus.
 
-1. Open a Terminal window
-1. Run the following command to start the Raspberry Pi config utility.
+From the command prompt, run the following command to enable I2C support for the Pi Sense HAT.
 
-    ```bash
-    sudo raspi-config
-    ```
-
-1. Select **Interface options**
-1. Select **I2C**
-1. Select **Yes**
-1. Press <kbd>ENTER</kbd>
-1. Press <kbd>ENTER</kbd>
-1. Select **Finish**
-1. Press <kbd>ENTER</kbd>
+```bash
+sudo raspi-config nonint do_i2c 0
+```

@@ -1,4 +1,4 @@
-# Connect the Altair emulator to Azure IoT Central
+# Create a device key
 
 To securely connect the Altair emulator to Azure IoT Central you need to create a device ID and a derived device key.
 
@@ -18,7 +18,7 @@ From the Azure IoT Central web portal, follow these steps.
 1. Select **Save**
 1. While on this page, copy the **ID scope** of your Azure IoT Central application somewhere safe. You will need the *ID scope** when you start the Altair emulator.
 
-## Create a device key
+## Create the device key
 
 1. Open a Terminal window on your computer and run the [compute-device-key](https://docs.microsoft.com/en-us/cli/azure/iot/central/device?view=azure-cli-latest#az-iot-central-device-compute-device-key) command to generate a device-derived key. Notes.
     - You will likely be prompted to install the azure-iot extension. Select **Y**, and press <kbd>Enter</kbd>.

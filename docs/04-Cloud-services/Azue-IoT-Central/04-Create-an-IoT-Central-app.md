@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# New IoT Central app
+# Create an IoT Central app
 
 1. Open the IoT Central web portal by selecting this link [Azure IoT Central](https://azure.microsoft.com/services/iot-central).
 

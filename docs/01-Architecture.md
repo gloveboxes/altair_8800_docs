@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Architecture
 
 ![The following diagram summarizes the Altair emulator architecture.](../static/img/Altair_8800_Application_Architecture.png)

@@ -1,6 +1,6 @@
-# Config the Altair
+# Add cloud services
 
-The following steps assume you have followed the [Start standalone Altair](../02-Deploy-Altair.md) guide and you are currently running the Altair Docker image in standalone mode.
+The following steps assume you have followed the [Start standalone Altair](../50-Deploy-Altair.md) guide and you are currently running the Altair Docker image in standalone mode.
 
 ## Stop the Altair docker container
 
@@ -67,7 +67,7 @@ docker run -d --env-file ~/altair.env --privileged -p 8081:8081 -p 8082:8082 --n
 
 Open the Web Terminal to access the Altair emulator. Follow these steps.
 
-1. Familiarize yourself with the [Web Terminal](../02-Altair-Web-Terminal.md) and the CP/M operating system.
+1. Familiarize yourself with the [Web Terminal](../20-Web-Terminal.md) and the CP/M operating system.
 1. To start the web terminal, from your web browser open the following link [http://aterminal.z8.web.core.windows.net/](http://aterminal.z8.web.core.windows.net/).
 1. Enter the Altair hostname or IP Address in the textbox and select **Connect**. If you are running the Altair on your local computer, then the hostname will be **localhost**. Otherwise enter the hostname of IP address of the system running the Altair emulator.
 1. Once connected, you will be greeted by the CP/M command prompt.
