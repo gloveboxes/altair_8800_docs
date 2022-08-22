@@ -1,4 +1,4 @@
-# Raspberry Pi users
+# Raspberry Pi OS
 
 ## Install Raspberry Pi OS
 

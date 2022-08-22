@@ -1,4 +1,4 @@
-# macOS users
+# macOS
 
 1. Install Xcode command line tools
 

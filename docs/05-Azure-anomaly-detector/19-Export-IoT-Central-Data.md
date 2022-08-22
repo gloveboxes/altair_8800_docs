@@ -1,4 +1,4 @@
-# Export data from Azure IoT Central
+# Export IoT Central data
 
 Follow these steps to export data from Azure IoT Central.
 

@@ -16,6 +16,14 @@ Microsoft BASIC-80 is included on drive A.
     mbasic
     ```
 
+1. Run an interactive command
+
+    ```basic
+    print "Hello, world!"
+    ```
+
+    The BASIC interpreter with execute the command immediately and display **Hello, World!**.
+
 1. Enter your first program:
 
     ```basic
@@ -55,7 +63,7 @@ Microsoft BASIC-80 is included on drive A.
 1. Run the following command to start your BASIC application from the CP/M command prompt.
 
     ```cpm
-    mbasic test
+    mbasic time
     ```
 
 You can learn more about BASIC from the following BASIC applications included with the Altair emulator:

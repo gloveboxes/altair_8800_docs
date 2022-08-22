@@ -4,6 +4,8 @@ The Altair emulator includes the [MicroPro Word-Master](https://github.com/Azure
 
 ## Ten-minute video introduction to editing files
 
+The easiest way to edit files is with Visul Studio Code and then copy the file to the Altair CP/M filesystem.  Watch the video to learn more.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3C_5WcSWqro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!-- ## Copying files to the Altair emulator
@@ -41,7 +43,7 @@ Follow these steps to copy files to the Altair filesystem.
 
     Use the **Network** address that corresponds to your network subnet. Your network subnet will likely start with **192.168.1**. -->
 
-## Copy a file from the Retro Games repo
+<!-- ## Copy a file from the Retro Games repo
 
 1. Review the [Retro Games](https://github.com/AzureSphereCloudEnabledAltair8800/RetroGames) repo.
 1. From the Altair web terminal CP/M command prompt, run the **Get File** command:
@@ -59,7 +61,7 @@ Follow these steps to copy files to the Altair filesystem.
     mbasic love
     ```
 
-Note, a lot of the retro games in the repo expect to find **MENU.BAS** in the CP/M filesystem. So be sure to transfer MENU.BAS as well.
+Note, a lot of the retro games in the repo expect to find **MENU.BAS** in the CP/M filesystem. So be sure to transfer MENU.BAS as well. -->
 
 <!-- ## Editing files with VS Code
 

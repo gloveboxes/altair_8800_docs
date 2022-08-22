@@ -1,4 +1,4 @@
-# Create climate monitor Azure resources
+# Create Azure resources
 
 We need to create the following resources:
 

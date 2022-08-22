@@ -1,4 +1,4 @@
-# Integrating Azure cloud services
+# Azure cloud services
 
 ## Altair emulator and Azure Data and AI services
 

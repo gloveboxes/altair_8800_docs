@@ -82,21 +82,27 @@ Here are some CP/M commands to get you started:
 
 ## How to copy a retro game to the CP/M filesystem
 
-If you configured the Altair emulator GetFile_URL to use the [Retro Games](https://github.com/AzureSphereCloudEnabledAltair8800/RetroGames) repo, then you can copy games to the Altair emulator.
+The following is an example of copying the `love.bas` game to the CP/M filesystem using the CP/M `gf` command.
 
 ![](../static/img/retro-games-snippet.png)
 
-The following is an example of copying the `love.bas` game to the CP/M filesystem using the CP/M `GetFile` command.
+1. Review the [Retro Games](https://github.com/AzureSphereCloudEnabledAltair8800/RetroGames) repo.
+1. From the Altair web terminal CP/M command prompt, run the **Get File** command:
 
-```cpm
-gf love.bas
-```
+    ```cpm
+    gf
+    ```
 
-Note, a lot of the games depend on **MENU.BAS**, so be sure to copy MENU.BAS to the emulator.
+1. Select endpoint 1 (GitHub)
+1. Type the name of the file to be transferred. For example **LOVE.BAS**. Note, that the filenames are case sensitive.
+1. Press <kbd>Enter</kbd> to start the transfer.
+1. From the CP/M command line, start the game. For example
 
-```cpm
-gf menu.bas
-```
+    ```cpm
+    mbasic love
+    ```
+
+Note, a lot of the retro games in the repo expect to find **MENU.BAS** in the CP/M filesystem. So be sure to transfer MENU.BAS as well.
 
 ### Acknowledgments
 

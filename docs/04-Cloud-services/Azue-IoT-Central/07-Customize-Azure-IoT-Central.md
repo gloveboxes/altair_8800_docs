@@ -48,23 +48,6 @@ The IoT Plug and Play model is declared in the *main.h* file.
 1. Select **Add section**.
 1. Drag the newly added section in column 3 to column 1
 1. Select the following properties:
-    - LED brightness
-1. Select **Add section**.
-1. Drag the newly added section in column 3 to column 1 below weather properties
-1. Select the following properties:
-    - AirQualityIndexUS
-    - Ammonia
-    - CarbonMonoxide
-    - NitrogenDioxide
-    - NitrogenMonoxide
-    - Ozone
-    - PM10
-    - PM2_5
-    - SulphurDioxide
-    - Wind Speed
-1. Select **Add section**.
-1. Drag the newly added section in column 3 to column 2
-1. Select the following properties:
     - Heartbeat
     - Software version
     - Start time

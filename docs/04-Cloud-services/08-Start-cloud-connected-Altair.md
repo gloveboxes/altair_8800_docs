@@ -1,6 +1,6 @@
 # Add cloud services
 
-The following steps assume you have followed the [Start standalone Altair](../50-Deploy-Altair.md) guide and you are currently running the Altair Docker image in standalone mode.
+The following steps assume you have followed the [Deploy the Altair](../50-Deploy-Altair.md) guide and you are currently running the Altair Docker image in standalone mode.
 
 ## Stop the Altair docker container
 

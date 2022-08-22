@@ -12,7 +12,7 @@ You need to pass the IoT Central and derived device key to your application.
 
 1. Open a Terminal command prompt.
     If you are using Windows Subsystem for Linux then open a WSL command prompt.
-1. Go to the *Altair8800/AltairHL_emulator* folder
+1. Go to the **Altair8800/AltairHL_emulator** folder
 1. Run the following command to open the folder with VS Code.
 
     ```bash
@@ -32,67 +32,17 @@ You need to pass the IoT Central and derived device key to your application.
     - DPS or IoT Central ID Scope.
     - Device ID.
     - Derived device key.
-    - Network interface, eg wlan0, eth0.
+    - Network interface, eg wlan0, eth0, en1.
+        Use the **ifconfig** command to determine your active network interface.
 
     **"args": ["-s", "<YOUR_SCOPE_ID>", "-d", "<YOUR_DEVICE_ID>", "-k", "<YOUR_DERIVED_DEVICE_KEY>", "-n", "<YOUR_NETWORK_INTERFACE>", "-o", "<YOUR_OPEN_WEATHER_MAP_API_KEY>"],**
 
 1. Save the launch.json file.
+1. If you are have a Raspberry Pi Sense HAT, then enable the Pi Sense HAT in the CMakeLists.txt file. Uncomment:
+
+    ```cmake
+    # set(ALTAIR_FRONT_PI_SENSE_HAT TRUE "Enable Raspberry Pi Sense HAT")
+    ```
+
 1. Select the **GCC** or **Clang** Kit.
 1. Press <kbd>F5</kbd> to compile and launch the Altair emulator.
-
-
-
-
-
-### Build the Altair 8800 docker image
-
-You can use a prebuilt Altair 8800 docker image. Run the following command to pull the prebuilt Docker image.
-
-#### For AMD64 or ARM64 platforms
-
-```bash
-docker pull glovebox/altair8800
-```
-
-#### For Raspberry Pi ARM64 with Pi Sense HAT
-
-```bash
-docker pull glovebox/altair8800-pisense
-```
-
-### Build Docker image from source
-
-From a Terminal window, run the following commands.
-
-1. Clone the repo
-
-    ```bash
-    git clone https://github.com/gloveboxes/Altair8800.Emulator.UN-X.git Altair8800
-    ```
-
-1. Go to the Altair repo folder on your computer.
-
-    ```bash
-    cd Altair8800/Docker
-    ```
-
-1. Raspberry Pi Sense HAT user. Enable the Pi Sense HAT.
-
-   ```bash
-   sed -i 's/#<REMOVE_THIS_COMMENT_TO_ENABLE_PI_SENSE_HAT>//g' dockerfile
-   ```
-
-1. If running the emulator as a shared service, then enable cloud service.
-
-   ```bash
-   sed -i 's/#<REMOVE_THIS_COMMENT_TO_ENABLE_CLOUD>//g' dockerfile
-   ```
-
-## Trouble shooting Raspberry Pi issues
-
-1. Ensure strong WiFi connection
-1. Disabling the WiFi power management can improve stability
-
-    ```bash
-    sudo iw wlan0 set power_save off
-    ```

@@ -1,4 +1,4 @@
-# Windows users
+# Windows
 
 Complete the following steps:
 

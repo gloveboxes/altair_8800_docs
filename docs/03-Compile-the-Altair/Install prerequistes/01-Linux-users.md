@@ -1,4 +1,4 @@
-# Linux desktop users
+# Linux
 
 Follow these steps to install the required packages.
 

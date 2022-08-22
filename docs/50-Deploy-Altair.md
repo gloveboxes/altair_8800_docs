@@ -37,12 +37,16 @@ Install Docker on your computer.
 
 The Docker Altair image runs on 64 bit Linux, macOS, Windows, and Raspberry Pi OS.
 
-## Pi Sense HAT or Retro Click LED panels
+## Pi Sense HAT LED panel
 
 If you have a Raspberry Pi and a Pi Sense HAT, then the 8x8 LED panels can display:
 
 1. The Altair 8800 front panel address and data bus information. The address and data bus LEDs give you a visual indication of the state of the Intel 8080 CPU.
-1. The Pi Sense HAT and Retro Click 8x8 LED panels can also be switched to *Font* mode. When *Font* is enabled, you can display characters on the LED panels.
+1. The Pi Sense HAT panel can also be switched to *Font* and *bitmap* modes. When *Font* is enabled, you can display characters on the LED panels. Bitmap mode gives you control of each pixel on th 8x8 panel.
+
+    | Raspberry Pi with Pi Sense HAT  | Raspberry Pi Sense HAT |
+    |--|--|
+    | ![The image shows the address and data bus LEDs](./../static/img/raspberry_pi_sense_hat_map.png) | ![The gif shows the address and data bus LEDs in action](./../static/img/raspberry_pi_sense_hat.gif) |
 
 ## Start the Altair Docker image
 
@@ -93,15 +97,6 @@ Open the Web Terminal to access the Altair emulator. Follow these steps.
 
     ![The following image is of the web terminal command prompt](../static/img/web_terminal.png)
 
-    When connected, press the Enter key, and the [CP/M](#introduction-to-cpm) **A>** command prompt will be displayed. CP/M is ready for your first command. For information on rebooting CP/M or loading Altair Basic, refer to [rebooting the Altair](30-Rebooting-the-Altair.md).
-
-    ![The following image is of the web terminal connected to the Altair emulator](../static/img/web_terminal_connected.png)
-
-<!-- 1. Enter the Altair hostname or IP Address in the textbox and select **Connect**. If you are running the Altair on your local computer, then the hostname will be **localhost**. Otherwise enter the hostname of IP address of the system running the Altair emulator.
-1. Once connected, you will be greeted by the CP/M command prompt.
-
-    ![The image shows the web terminal](./../static/img/web_terminal.png) -->
-
 ## Stop the Altair emulator Docker container
 
 Use the following command to stop the Altair emulator Docker container.
@@ -129,3 +124,12 @@ Use the following command to delete the Altair Docker container.
 ```bash
 docker container rm altair8800
 ```
+
+## Trouble shooting Raspberry Pi issues
+
+1. Ensure strong WiFi connection
+1. Disabling the WiFi power management can improve stability
+
+    ```bash
+    sudo iw wlan0 set power_save off
+    ```

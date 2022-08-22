@@ -1,4 +1,4 @@
-# Detecting anomalies with Azure Anomaly Detection API
+# Detect anomalies
 
 In this unit you will run the climate anomaly BASIC application, create an Azure Anomaly Detection API service, and install support for Jupyter Notebooks.
 

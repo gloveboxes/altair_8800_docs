@@ -1,6 +1,6 @@
 # Start the Altair emulator
 
-1. From a terminal window, go to the *Altair8800/AltairHL_emulator* folder that you cloned to your computer.
+1. From a terminal window, go to the **Altair8800/AltairHL_emulator** folder that you cloned to your computer.
 1. Before you start the emulator, you need the following information.
 
     1. ID_SCOPE: Azure IoT Central ID Scope
