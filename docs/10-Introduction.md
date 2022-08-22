@@ -27,7 +27,7 @@ Optionally, the project integrates free weather and pollution cloud services fro
 
 This project is based on the [Azure Sphere Cloud-Enabled Altair 8800](https://github.com/AzureSphereCloudEnabledAltair8800/AzureSphereAltair8800_V2) as featured on the Register "[Microsoft adds cloud enablement to 1970s Altair 8800 tech](https://www.theregister.com/2021/07/16/altair_redux/)".
 
-## Test drive the Altair in the cloud
+<!-- ## Test drive the Altair in the cloud
 
 The **easiest** way to try the Altair emulator is from your web browser. Select the following link, [Test Drive the Altair 8800 emulator](http://aterminal.z8.web.core.windows.net/?altair=altair.westus2.cloudapp.azure.com), and open the link in a new browser tab. The Altair web terminal will open, select **Connect** to start a 30-minute session. The web terminal connects to an instance of the emulator running in an [Azure Container Instance](https://azure.microsoft.com/services/container-instances/).
 
@@ -38,15 +38,15 @@ Then learn about [CPM](20-Web-Terminal.md), software development with [BASIC](02
 The following limitations apply to test-drive:
 
 1. You'll lose any changes you make when you disconnect or close the test-drive web terminal.
-1. Only one person at a time can connect to the test-drive emulator. If you can't connect, then try again in 30-minutes.
+1. Only one person at a time can connect to the test-drive emulator. If you can't connect, then try again in 30-minutes. -->
 
-## Run the Altair locally
+## Running the Altair
 
 The Altair emulator runs on desktop and device operating systems. The [source code](https://github.com/gloveboxes/Altair8800.Emulator.UN-X) is the same, but on devices there are some extended experiences. The Altair emulator has been tested on the following desktop operating systems and devices.
 
 ### Supported desktop operating systems
 
-The **fastest** way to run the Altair emulator is on your computer. The Altair emulator runs on [POSIX](https://en.wikipedia.org/wiki/POSIX) compatible operating systems including, Linux, Windows with [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install), macOS on Apple Silicon and Intel.
+The **fastest** way to run the Altair emulator is on your computer with Docker. The Altair emulator also runs on [POSIX](https://en.wikipedia.org/wiki/POSIX) compatible operating systems including, Linux, Windows with [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install), macOS on Apple Silicon and Intel.
 
 ### Supported devices
 
