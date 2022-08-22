@@ -21,7 +21,7 @@ The Altair emulator supports [IoT Plug and Play](https://docs.microsoft.com/azur
 The IoT Plug and Play model is declared in the *main.h* file.
 
 ```c
-#define IOT_PLUG_AND_PLAY_MODEL_ID "dtmi:com:example:climatemonitor;1"
+#define IOT_PLUG_AND_PLAY_MODEL_ID "dtmi:com:example:climatemonitor;2"
 ```
 
 ## Add a summary properties view
