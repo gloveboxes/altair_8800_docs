@@ -24,11 +24,16 @@ The following tables show output port numbers and port data values. Typically, c
 |------|-------|:---------|
 | 29   | 0-255 | Set timer period in milliseconds |
 | 30   | 0-255 | Set timer period in seconds |
-| 33   | ASCII | GetFile filename |
 | 41   | 0     | System tick count |
 | 42   | 0     | Current [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) date and time |
 | 43   | 0     | Current local date and time |
 | 44   | 0     | Generates a random number between -32000 and 32000 |
+| 68   | ASCII | Set getfile (gf) filename |
+| 110   | ASCII | Set getfile (gf) custom endpoint url |
+| 111   | 0 | Load getfile (gf) customer endpoint url |
+| 112   | 0 | Select getfile (gf) endpoint to use |
+| 113   | 0 | Load getfile (gf) selected endpoint |
+| 114   | ASCII | Set web request file name and call on NULL |
 
 #### Weather ports
 
@@ -106,6 +111,21 @@ The following tables show output port numbers and port data values. Typically, c
 | 64   | 3      | Calibrate then start the accelerometer |
 | 64   | 4      | Stop the accelerometer readings |
 | 64   | 5      | One-off accelerometer reading |
+| 66   | 0      | Power management disable |
+| 66   | 1      | Power management enable |
+| 66   | 2      | Power management sleep |
+| 67   | 1..255 | Power management wake from sleep (seconds) |
+| 71   | 0      | Get Azure Sphere OS version number |
+| 72   | 0      | Get first 8 characters of Azure Sphere device ID |
+
+#### 8x8 LED Panels
+
+- Pi Sense HAT
+- Mikroe Retro 8800 Click
+
+| Port | Port data  | Loads |
+|------|-------|:---------|
+| 65   | 0..8   | Power management LED brightness |
 
 #### General ports
 
