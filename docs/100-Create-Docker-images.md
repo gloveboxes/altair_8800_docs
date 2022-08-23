@@ -22,16 +22,16 @@
 
 ## Altair on Raspberry Pi OS 64 bit (ARM64) with Pi Sense HAT
 
-1. Uncomment the following line in the dockerfile to enable PI Sense HAT image build.
-
-    ```text
-    #<REMOVE_THIS_COMMENT_TO_ENABLE_PI_SENSE_HAT>RUN cd /Altair8800/AltairHL_emulator && sed -i 's/# set(ALTAIR_FRONT_PI_SENSE_HAT/set(ALTAIR_FRONT_PI_SENSE_HAT/g' CMakeLists.txt
-    ```
-
 1. Change to the Docker folder
 
     ```bash
     cd Docker
+    ```
+
+1. Edit and uncomment the following line in the dockerfile to enable PI Sense HAT image build.
+
+    ```text
+    #<REMOVE_THIS_COMMENT_TO_ENABLE_PI_SENSE_HAT>RUN cd /Altair8800/AltairHL_emulator && sed -i 's/# set(ALTAIR_FRONT_PI_SENSE_HAT/set(ALTAIR_FRONT_PI_SENSE_HAT/g' CMakeLists.txt
     ```
 
 1. Clear the Docker Buildx cache
@@ -48,16 +48,16 @@
 
 ## Altair as a shared service
 
-1. Uncomment the following line in the dockerfile to enable cloud image build.
-
-    ```text
-    #<REMOVE_THIS_COMMENT_TO_ENABLE_CLOUD>RUN cd /Altair8800/AltairHL_emulator && sed -i 's/# set(ALTAIR_CLOUD/set(ALTAIR_CLOUD/g' CMakeLists.txt
-    ```
-
 1. Change to the Docker folder
 
     ```bash
     cd Docker
+    ```
+
+1. Edit and uncomment the following line in the dockerfile to enable cloud image build.
+
+    ```text
+    #<REMOVE_THIS_COMMENT_TO_ENABLE_CLOUD>RUN cd /Altair8800/AltairHL_emulator && sed -i 's/# set(ALTAIR_CLOUD/set(ALTAIR_CLOUD/g' CMakeLists.txt
     ```
 
 1. Clear the Docker Buildx cache

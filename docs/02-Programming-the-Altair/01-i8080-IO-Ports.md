@@ -30,7 +30,7 @@ The following tables show output port numbers and port data values. Typically, c
 | 44   | 0     | Generates a random number between -32000 and 32000 |
 | 68   | ASCII | Set getfile (gf) filename |
 | 110   | ASCII | Set getfile (gf) custom endpoint url |
-| 111   | 0 | Load getfile (gf) customer endpoint url |
+| 111   | 0 | Load getfile (gf) custom endpoint url |
 | 112   | 0 | Select getfile (gf) endpoint to use |
 | 113   | 0 | Load getfile (gf) selected endpoint |
 | 114   | ASCII | Set web request file name and call on NULL |
