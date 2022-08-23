@@ -50,3 +50,8 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 $ npm install 
 ```
 
+### Deploying to Github Pages with an SSO account
+
+1. [Authorizing PATs and SSH keys with SAML SSO](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/about-authentication-with-saml-single-sign-on#authorizing-pats-and-ssh-keys-with-saml-sso)
+1. [Creating a personal access token](https://docs.github.com/en/enterprise-cloud@latest/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+1. [Authorizing a personal access token for use with SAML single sign-on](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on)

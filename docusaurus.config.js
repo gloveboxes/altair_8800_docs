@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Altair 8800 Everywhere',
-  tagline: 'Altair 8800 Everywhere',
+  title: 'Altair 8800',
+  tagline: 'Altair 8800',
   url: 'https://gloveboxes.github.io/', // Your website URL
   baseUrl: '/altair_8800_posix_docs/',
   onBrokenLinks: 'throw',
@@ -59,7 +59,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Altair Everywhere',
+        title: 'Altair 8800 Everywhere',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',

@@ -25,8 +25,8 @@ Optionally, the project integrates free weather and pollution cloud services fro
 
 ## Documentation and source code
 
-- This project is based on the [Azure Sphere Cloud-Enabled Altair 8800](https://github.com/AzureSphereCloudEnabledAltair8800/AzureSphereAltair8800_V2) as featured on the Register "[Microsoft adds cloud enablement to 1970s Altair 8800 tech](https://www.theregister.com/2021/07/16/altair_redux/)".
 - [Altair 8800 Emulator on POSIX Source Code](https://github.com/gloveboxes/Altair_8800_POSIX)
+- This project is based on the [Azure Sphere Cloud-Enabled Altair 8800](https://github.com/AzureSphereCloudEnabledAltair8800/AzureSphereAltair8800_V2) as featured on the Register "[Microsoft adds cloud enablement to 1970s Altair 8800 tech](https://www.theregister.com/2021/07/16/altair_redux/)".
 
 <!-- ## Test drive the Altair in the cloud
 
