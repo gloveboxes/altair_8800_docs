@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Escape room challenge
 
-Wondering where to start with the Altair? Well, there is a built-in [Escape Room Challenge](https://en.wikipedia.org/wiki/Escape_room). It's designed to be a brain teaser, frustrating and delighting in equal measure. Working in teams helps with problem-solving and if the challenge sees you are struggling then more hints will be offered.
+Wondering where to start with the Altair? Well, there is a built-in [Escape Room Challenge](https://en.wikipedia.org/wiki/Escape_room). It's designed to be a brain teaser, frustrating and delighting in equal measure. Working in teams helps with problem-solving and if the challenge sees you are struggling, then more hints will be offered.
 
 Good luck and have fun!
 
