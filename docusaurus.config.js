@@ -68,8 +68,8 @@ const config = {
           {
             type: 'docSidebar',  // docSidebar
             position: 'left',
-            sidebarId: 'use', // foldername
-            label: 'Use the Altair',     // navbar title
+            sidebarId: 'start', // foldername
+            label: 'Get started',     // navbar title
           },
           {
             type: 'docSidebar',  // docSidebar

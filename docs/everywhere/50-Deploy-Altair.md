@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Deploy the Altair
+# Deploy
 
 The easiest way to run the Altair 8800 emulator is with Docker. You need to install Docker on your Linux, macOS, Windows, or Raspberry Pi computer.
 
@@ -91,7 +91,7 @@ docker run -e TZ=Australia/Sydney -d --privileged -p 8082:8082 --name altair8800
 
 Open the Web Terminal to access the Altair emulator. Follow these steps.
 
-1. Familiarize yourself with the [Web Terminal](../terminal/20-Web-Terminal.md) and the CP/M operating system.
+1. Familiarize yourself with the [Web Terminal](../start/20-Web-Terminal.md) and the CP/M operating system.
 1. To start the web terminal, from your web browser open the following link [http://aterminal.z8.web.core.windows.net/](http://aterminal.z8.web.core.windows.net/).
 1. To connect to the Altair emulator, enter the IP address or hostname of the computer or device running the Altair emulator. If you are running the Altair emulator on your local computer, then connect to address **localhost**. Then select **Connect**.
 
