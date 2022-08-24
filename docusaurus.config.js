@@ -68,14 +68,20 @@ const config = {
           {
             type: 'docSidebar',  // docSidebar
             position: 'left',
+            sidebarId: 'use', // foldername
+            label: 'Use the Altair',     // navbar title
+          },
+          {
+            type: 'docSidebar',  // docSidebar
+            position: 'left',
             sidebarId: 'everywhere', // foldername
-            label: 'Everywhere docs',     // navbar title
+            label: 'Deploy on Windows, Linux, macOS, and Raspberry Pi',     // navbar title
           },
           {
             type: 'docSidebar',  // docSidebar
             position: 'left',
             sidebarId: 'azsphere', // foldername
-            label: 'Azure Sphere docs',     // navbar title
+            label: 'Deploy on Azure Sphere',     // navbar title
           },
           // {
           //   type: 'doc',

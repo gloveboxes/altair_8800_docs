@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
 
-# Reference manuals
+# Manuals
 
 The following is a list of the relevant manuals to start programming on the Altair.
 
