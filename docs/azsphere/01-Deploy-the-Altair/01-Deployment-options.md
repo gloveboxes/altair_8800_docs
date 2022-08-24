@@ -6,6 +6,10 @@ sidebar_position: 1
 
 The easiest way to deploy the Altair emulator the Azure Sphere is to use prebuilt images. To integrate cloud services then you will need to install the Azure Sphere developer tools and create the cloud services you want to use.
 
+## Ideal Azure Sphere config
+
+The ideal Azure Sphere configuration is the Avnet Azure Sphere Starter Kit paired with the [MikroE microSD Click](https://www.mikroe.com/microsd-click) and the [MikroE 8800 Retro Click](https://www.mikroe.com/8800-retro-click).
+
 ## Supported configurations
 
 There are two storage options.
@@ -13,7 +17,7 @@ There are two storage options.
 | Option | Pros   | Cons |
 |---|---|---|
 | Azure Sphere real-time difference disk service.  | No extra hardware required.  | Disk changes are lost if the device is reset or power is cycled. |
-| [MikreoE SD Card Click](https://www.mikroe.com/microsd-click). Requires an Avnet Azure Sphere Start Kit Rev 1 or 2. | Permanent storage on SD card. | Additional hardware required. |
+| [MikroE microSD Click](https://www.mikroe.com/microsd-click). Requires an Avnet Azure Sphere Start Kit Rev 1 or 2. | Permanent storage on SD card. | Additional hardware required. |
 
 There are three display options.
 

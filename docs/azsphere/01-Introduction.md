@@ -28,6 +28,10 @@ Azure Sphere consists of the following components:
 
 The Altair emulator is supported on Azure Sphere devices from Avnet and Seeed Studio. If an Azure Sphere device is paired with the [Altair front panel kit](https://github.com/AzureSphereCloudEnabledAltair8800/AzureSphereAltair8800.Hardware) or the [Mikroe Altair Retro Click](https://www.mikroe.com/blog/8800-retro-click), the Altair address and data bus activity are displayed.
 
+## Ideal Azure Sphere config
+
+The ideal Azure Sphere configuration is the Avnet Azure Sphere Starter Kit paired with the [MikroE microSD Click](https://www.mikroe.com/microsd-click) and the [MikroE 8800 Retro Click](https://www.mikroe.com/8800-retro-click).
+
 | Azure Sphere with the Altair front panel kit | MikroE Retro Click |
 |--|--|
 | ![The gif shows the Altair on Azure Sphere with the Altair front panel](img/altair_on_sphere.gif) | ![The gif shows the address and data bus LEDs in action](img/avnet_retro_click.gif) |
