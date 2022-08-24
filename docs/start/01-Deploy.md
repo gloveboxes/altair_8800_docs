@@ -1,4 +1,4 @@
-# Deploy
+# Deploy the Altair 8800
 
 ## Windows, Linux, macOS, and Raspberry Pi
 
