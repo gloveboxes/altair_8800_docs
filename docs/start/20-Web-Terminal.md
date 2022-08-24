@@ -104,6 +104,6 @@ The following is an example of copying the `love.bas` game to the CP/M filesyste
 
 Note, a lot of the retro games in the repo expect to find **MENU.BAS** in the CP/M filesystem. So be sure to transfer MENU.BAS as well.
 
-### Acknowledgments
+## Retro game acknowledgments
 
 This list of games was made possible by the dedicated work of [CP/M Games](http://www.retroarchive.org/cpm/games/games.htm) and [Vintage BASIC](http://www.vintage-basic.net/games.html).
