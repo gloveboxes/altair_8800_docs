@@ -28,3 +28,9 @@ To get started with the challenge, follow these steps.
 ## Spread the word
 
 Once you've completed the challenge then spread the word on Twitter. Use these twitter tags #AltairEscape and @dglover. Please include a link to the docs [https://gloveboxes.github.io/altair_8800_posix_docs](https://gloveboxes.github.io/altair_8800_posix_docs).
+
+## Avnet Azure Sphere Starter Kit
+
+If you are running the Escape Room Challenge on an Avnet Azure Sphere Starter kit then remember the challenge uses the light sensor and accelerometer.
+
+![The image shows the Avnet Azure Sphere Start Kit features](img/AzureSphereKit-Functions.jpeg)
