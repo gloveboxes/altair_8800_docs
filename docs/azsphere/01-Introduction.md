@@ -4,8 +4,6 @@ sidebar_position: 1
 
 # Introduction
 
-
-
 ## Altair emulator version 2
 
 This is version 2 of the Azure Sphere Altair Emulator and shares the same code base as the [Altair 8800 Emulator Everywhere](https://github.com/gloveboxes/Altair8800.Emulator.Everywhere) project that runs on Windows, Linux, macOS, and Raspberry Pi.
