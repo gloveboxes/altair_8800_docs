@@ -15,8 +15,6 @@ This is version 2 of the Azure Sphere Altair Emulator and shares the same code b
 
 The Altair emulator runs in Docker and on desktop and device operating systems. There are extended experiences when you run the Altair emulator on a device.
 
-The Altair emulator has been tested on the following desktop operating systems and devices.
-
 ## Docker
 
 The **fastest** way to run the Altair emulator is on a computer, including Raspberry Pi, with Docker.
