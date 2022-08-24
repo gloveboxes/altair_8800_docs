@@ -46,7 +46,7 @@ If you have a Raspberry Pi and a Pi Sense HAT, then the 8x8 LED panels can displ
 
     | Raspberry Pi with Pi Sense HAT  | Raspberry Pi Sense HAT |
     |--|--|
-    | ![The image shows the address and data bus LEDs](./../static/img/raspberry_pi_sense_hat_map.png) | ![The gif shows the address and data bus LEDs in action](./../static/img/raspberry_pi_sense_hat.gif) |
+    | ![The image shows the address and data bus LEDs](img/raspberry_pi_sense_hat_map.png) | ![The gif shows the address and data bus LEDs in action](img/raspberry_pi_sense_hat.gif) |
 
 ## Start the Altair Docker image
 
@@ -95,7 +95,7 @@ Open the Web Terminal to access the Altair emulator. Follow these steps.
 1. To start the web terminal, from your web browser open the following link [http://aterminal.z8.web.core.windows.net/](http://aterminal.z8.web.core.windows.net/).
 1. To connect to the Altair emulator, enter the IP address or hostname of the computer or device running the Altair emulator. If you are running the Altair emulator on your local computer, then connect to address **localhost**. Then select **Connect**.
 
-    ![The following image is of the web terminal command prompt](../static/img/web_terminal.png)
+    ![The following image is of the web terminal command prompt](img/web_terminal.png)
 
 ## Stop the Altair emulator Docker container
 

@@ -1,9 +1,11 @@
 ---
-sidebar_position: 1
+title: Altair
+description: Altair 8800
+hide_table_of_contents: false
 slug: /
 ---
 
-# Introduction
+## Introduction
 
 The goal of the cloud-connected Altair project is to provide a unique blend of [computing history](https://en.wikipedia.org/wiki/Retrocomputing) with modern cloud computing. You'll learn about computing fundamentals, software development, and modern IoT, Data, and AI cloud services that address today's real-world IT challenges.
 
@@ -14,12 +16,12 @@ The Altair project can be viewed through three lenses:
 1. Learn how to develop multithreaded event-driven IoT C applications that scale from [microcontrollers](https://en.wikipedia.org/wiki/Microcontroller), to [Raspberry Pis](https://en.wikipedia.org/wiki/Raspberry_Pi), to desktop-class computers.
 1. A fantastic safe way to explore machine-level programming, Intel 8080 Assembly programming, along with C and BASIC development.
 1. You are interested in retro gaming, and you want to chill playing retro games from yesteryear.
-
-Optionally, the project integrates free weather and pollution cloud services from [Open Weather Map](http://openweathermap.org), along with [Azure IoT Central](https://azure.microsoft.com/en-au/services/iot-central/), and [Azure Anomaly Detection Cognitive Service](https://azure.microsoft.com/services/cognitive-services/anomaly-detector/). The following reports were generated from data published by the Altair emulator using data sourced from Open Weather Map.
+1. 
+1. Optionally, the project integrates free weather and pollution cloud services from [Open Weather Map](http://openweathermap.org), along with [Azure IoT Central](https://azure.microsoft.com/en-au/services/iot-central/), and [Azure Anomaly Detection Cognitive Service](https://azure.microsoft.com/services/cognitive-services/anomaly-detector/). The following reports were generated from data published by the Altair emulator using data sourced from Open Weather Map.
 
 | IoT Central Sydney pollution report | Azure Anomaly Detection report|
 |------|-----|
-| ![The images shows pollution report for Sydney](../static/img/iot_central_pollution_report.png) | ![The following images shows temperature based anomalies](../static/img/univariate-anomalies.png) |
+| ![The images shows pollution report for Sydney](../../static/img/iot_central_pollution_report.png) | ![The following images shows temperature based anomalies](../../static/img/univariate-anomalies.png) |
 
 <!-- ![](../static/img/altair_with_azure_data_ai.png) -->
 
@@ -62,7 +64,7 @@ If you pair a Raspberry Pi with a [Pi Sense HAT](https://www.raspberrypi.com/pro
 
 | Raspberry Pi with Pi Sense HAT  | Raspberry Pi Sense HAT |
 |--|--|
-| ![The image shows the address and data bus LEDs](./../static/img/raspberry_pi_sense_hat_map.png) | ![The gif shows the address and data bus LEDs in action](./../static/img/raspberry_pi_sense_hat.gif) |
+| ![The image shows the address and data bus LEDs](../../static/img/raspberry_pi_sense_hat_map.png) | ![The gif shows the address and data bus LEDs in action](../../static/img/raspberry_pi_sense_hat.gif) |
 
 #### Azure Sphere with optional Altair front panel kit
 
@@ -70,11 +72,11 @@ The Altair emulator is supported on Azure Sphere devices from Avnet and Seeed St
 
 | Azure Sphere with the Altair front panel kit | MikroE Retro Click |
 |--|--|
-| ![The gif shows the Altair on Azure Sphere with the Altair front panel](../static/img/altair_on_sphere.gif) | ![The gif shows the address and data bus LEDs in action](./../static/img/avnet_retro_click.gif) |
+| ![The gif shows the Altair on Azure Sphere with the Altair front panel](../../static/img/altair_on_sphere.gif) | ![The gif shows the address and data bus LEDs in action](../../static/img/avnet_retro_click.gif) |
 
 ## Altair history
 
-![The image shows the Altair 8800](../static/img/altair-8800-smithsonian-museum.png)
+![The image shows the Altair 8800](../../static/img/altair-8800-smithsonian-museum.png)
 
 [Altair 8800 image attribution - Smithsonian Museum](https://commons.wikimedia.org/wiki/File:Altair_8800,_Smithsonian_Museum.jpg)
 

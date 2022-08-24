@@ -59,12 +59,24 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Altair 8800 Everywhere',
+        title: 'Altair 8800',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
+          {
+            type: 'docSidebar',  // docSidebar
+            position: 'left',
+            sidebarId: 'everywhere', // foldername
+            label: 'Everywhere docs',     // navbar title
+          },
+          {
+            type: 'docSidebar',  // docSidebar
+            position: 'left',
+            sidebarId: 'azsphere', // foldername
+            label: 'Azure Sphere docs',     // navbar title
+          },
           // {
           //   type: 'doc',
           //   docId: 'intro',
@@ -82,15 +94,15 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Altair Everywhere',
-                to: '/',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Altair Everywhere',
+          //       to: '/',
+          //     },
+          //   ],
+          // },
           // {
           //   title: 'Community',
           //   items: [

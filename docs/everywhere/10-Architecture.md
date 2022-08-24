@@ -4,7 +4,9 @@ sidebar_position: 2
 
 # Architecture
 
-![The following diagram summarizes the Altair emulator architecture.](../static/img/Altair_8800_Application_Architecture.png)
+The Altair emulator runs on [POSIX](https://en.wikipedia.org/wiki/POSIX) compatible operating systems including, Linux, Windows with [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install), macOS on Apple Silicon and Intel.
+
+![The following diagram summarizes the Altair emulator architecture.](img/Altair_8800_Application_Architecture.png)
 
 Starting from the bottom left and moving up and then to the right.
 

@@ -10,7 +10,7 @@ The Altair web terminal url is [http://aterminal.z8.web.core.windows.net/](http:
 
 Note, there are links on the web terminal to the retro games GitHub repo, the documentation, and user and programming manuals.
 
-![This image shows the web terminal](../static/img/web_terminal_intro.png)
+![This image shows the web terminal](img/web_terminal_intro.png)
 
 ## Ten-minute video introduction to the Altair emulator
 
@@ -84,7 +84,7 @@ Here are some CP/M commands to get you started:
 
 The following is an example of copying the `love.bas` game to the CP/M filesystem using the CP/M `gf` command.
 
-![](../static/img/retro-games-snippet.png)
+![](img/retro-games-snippet.png)
 
 1. Review the [Retro Games](https://github.com/AzureSphereCloudEnabledAltair8800/RetroGames) repo.
 1. From the Altair web terminal CP/M command prompt, run the **Get File** command:
