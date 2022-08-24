@@ -4,16 +4,13 @@ sidebar_position: 1
 
 # Introduction
 
-## Altair emulator version 2
+This is version 2 of the Azure Sphere Altair Emulator and shares the same code base as the [Altair 8800 Everywhere](https://github.com/gloveboxes/Altair_8800_Everywhere) project that runs on Windows, Linux, macOS, and Raspberry Pi.
 
-This is version 2 of the Azure Sphere Altair Emulator and shares the same code base as the [Altair 8800 Emulator Everywhere](https://github.com/gloveboxes/Altair8800.Emulator.Everywhere) project that runs on Windows, Linux, macOS, and Raspberry Pi.
+## Source code
 
-## Documentation and source code
-
-- The Altair documentation is available [here](https://aka.ms/AltairDocs).
-- The Altair source code is maintained at [AI-and-Cloud-Powered-Altair-8800-on-Azure-Sphere](https://github.com/AzureSphereCloudEnabledAltair8800/AI-and-Cloud-Powered-Altair-8800-on-Azure-Sphere)
-- The Altair documentation is maintained at [AltairDocsSource](https://github.com/AzureSphereCloudEnabledAltair8800/AltairDocsSource).
-- All the source code is provided under an MIT License, and contributions are very welcome.
+- The Altair on Azure Sphere source code is maintained at [AI and Cloud powered Altair 8800](https://github.com/AzureSphereCloudEnabledAltair8800/AI-and-Cloud-Powered-Altair-8800-on-Azure-Sphere)
+- The [Altair Front Panel](https://github.com/AzureSphereCloudEnabledAltair8800/AzureSphereAltair8800.Hardware) hardware design.
+- All the source is provided under an MIT License, and contributions are very welcome.
 
 ## Azure Sphere
 
