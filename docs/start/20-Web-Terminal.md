@@ -12,7 +12,7 @@ Note, there are links on the web terminal to the retro games GitHub repo, the do
 
 ![This image shows the web terminal](img/web_terminal_intro.png)
 
-## Ten-minute video introduction to the Altair emulator
+## Ten-minute video introduction
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uTBHzwm11xM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -80,7 +80,7 @@ Here are some CP/M commands to get you started:
 
 ## Get started with retro gaming
 
-## How to copy a retro game to the CP/M filesystem
+## Download a retro game
 
 The following is an example of copying the `love.bas` game to the CP/M filesystem using the CP/M `gf` command.
 

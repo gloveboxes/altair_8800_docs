@@ -52,7 +52,7 @@ To access the virtual front panel, you must be connected to the Altair emulator 
 
 1. To exit the CPU monitor, select **Ctrl+M**.
 
-## The List extended virtual front panel command
+## The List virtual front panel command
 
 This is an extended Altair front panel command.
 
@@ -139,7 +139,7 @@ The **List** command will disassemble the next 20 Intel 8080 instructions from t
 
 1. From the web terminal, select **Ctrl+M** to exit the CPU monitor. This will resume code execution from the current CPU instruction pointer. Depending on what you have been changing in memory, you may need to [restart CP/M](#restarting-cpm).
 
-## The Trace extended virtual front panel command
+## The Trace virtual front panel command
 
 This is an extended Altair front panel command.
 

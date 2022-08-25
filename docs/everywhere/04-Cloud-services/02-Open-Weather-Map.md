@@ -12,7 +12,7 @@ Connecting the Open Weather Map cloud service is optional, free, and recommended
 1. Select **API Keys** from the Open Weather Map site.
 1. Copy the Open Weather Map API key somewhere safe as you will need this data when you start the Altair in cloud-connected mode.
 
-## Understand how Open Weather Map calculates air quality
+## Open Weather Map air quality calculation
 
 Open Weather Map air quality calculation is based on the Common Air Quality Index (CAQI). The Common Air Quality Index (CAQI) is an air quality index used in Europe since 2006.
 

@@ -20,7 +20,6 @@ The Altair project can be viewed through three lenses:
 1. Learn how to develop multithreaded event-driven IoT C applications that scale from [microcontrollers](https://en.wikipedia.org/wiki/Microcontroller), to [Raspberry Pis](https://en.wikipedia.org/wiki/Raspberry_Pi), to desktop-class computers.
 1. A fantastic safe way to explore machine-level programming, Intel 8080 Assembly programming, along with C and BASIC development.
 1. You are interested in retro gaming, and you want to chill playing retro games from yesteryear.
-1. 
 1. Optionally, the project integrates free weather and pollution cloud services from [Open Weather Map](http://openweathermap.org), along with [Azure IoT Central](https://azure.microsoft.com/en-au/services/iot-central/), and [Azure Anomaly Detection Cognitive Service](https://azure.microsoft.com/services/cognitive-services/anomaly-detector/). The following reports were generated from data published by the Altair emulator using data sourced from Open Weather Map.
 
 | IoT Central Sydney pollution report | Azure Anomaly Detection report|
@@ -29,7 +28,7 @@ The Altair project can be viewed through three lenses:
 
 <!-- ![](../static/img/altair_with_azure_data_ai.png) -->
 
-## Documentation and source code
+## Source code
 
 - [Altair 8800 Emulator on POSIX Source Code](https://github.com/gloveboxes/Altair_8800_POSIX)
 - This project is based on the [Azure Sphere Cloud-Enabled Altair 8800](https://github.com/AzureSphereCloudEnabledAltair8800/AzureSphereAltair8800_V2) as featured on the Register "[Microsoft adds cloud enablement to 1970s Altair 8800 tech](https://www.theregister.com/2021/07/16/altair_redux/)".
@@ -51,7 +50,7 @@ The following limitations apply to test-drive:
 
 The Altair emulator runs on desktop and device operating systems. The [source code](https://github.com/gloveboxes/Altair8800.Emulator.UN-X) is the same, but on devices there are some extended experiences. The Altair emulator has been tested on the following desktop operating systems and devices.
 
-### Supported desktop operating systems
+### Supported operating systems
 
 The **fastest** way to run the Altair emulator is on your computer with Docker. The Altair emulator also runs on [POSIX](https://en.wikipedia.org/wiki/POSIX) compatible operating systems including, Linux, Windows with [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install), macOS on Apple Silicon and Intel.
 

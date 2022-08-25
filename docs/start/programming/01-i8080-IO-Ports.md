@@ -2,11 +2,11 @@
 
 The Intel 8080 CPU can address up to 256 input ports and 256 output ports; allowing for virtually unlimited system expansion. Access to the ports is via the IN and OUT [Intel 8080 CPU instructions](https://github.com/AzureSphereCloudEnabledAltair8800/Altair8800.manuals/blob/master/98-153B_Intel_8080_Microcomputer_Systems_Users_Manual_197509.pdf).
 
-## Example of i8080 IO ports used to integrate peripherals
+## Intel 8080 IO ports and peripherals
 
 ![The image shows an example of Intel 8080 IO port usage](img/i8080_ports.png)
 
-## Extended Altair emulator software-enabled ports
+## Altair emulator software-enabled ports
 
 The Altair emulator uses Intel 8080 IO ports to provide time services, random numbers, and access to cloud services.
 

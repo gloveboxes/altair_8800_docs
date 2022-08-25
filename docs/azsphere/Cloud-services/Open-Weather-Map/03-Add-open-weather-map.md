@@ -1,4 +1,4 @@
-# Add OWM Key
+# Add Open Weather Map Key
 
 ## Open Weather Map weather and pollution service
 

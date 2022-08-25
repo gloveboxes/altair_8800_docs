@@ -54,7 +54,7 @@ The CP/M disk image includes two demo assembly applications, **DEMO.ASM** and **
     demo
     ```
 
-## Edit the *DEMO.ASM* file with Word-Master
+## Edit a file with Word-Master
 
 in the following steps use the [Word-Master text editor](https://github.com/AzureSphereCloudEnabledAltair8800/Altair8800.manuals/blob/master/Word-Master_Manual.pdf) to edit a file. It's highly recommended to [edit files with Visual Studio Code](Editing-files) and then copy the file to the Altair filesystem using the CP/M gf command.
 
@@ -76,7 +76,7 @@ in the following steps use the [Word-Master text editor](https://github.com/Azur
 1. Switch the web terminal to line input mode by selecting **Ctrl+L**.
 1. Then assemble, load, and run the updated demo.asm application.
 
-### The SLEEP.ASM example
+## Sleep assembly example
 
 The SLEEP.ASM example uses Intel 8080 input and output port instructions. The *SLEEP.ASM* application sets a sleep period of 2 seconds using output port 30, waits on input port 30 for the delay period to expire, and then publishes weather data to Azure IoT Central. For more information about Intel 8080 IO port mappings, refer to [Intel 8080 input and output ports](https://github.com/gloveboxes/Altair8800.Emulator.UN-X/wiki#intel-8080-input-and-output-ports).
 
