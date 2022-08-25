@@ -11,6 +11,10 @@ The goal of the cloud-connected Altair project is to provide a unique blend of [
 
 The [Altair 8800](https://en.wikipedia.org/wiki/Altair_8800?azure-portal=true) kick-started the personal computer revolution. Microsoft's first product was [Altair BASIC](https://en.wikipedia.org/wiki/Altair_BASIC?azure-portal=true) written for the Altair 8800 by Bill Gates and Paul Allen. At the time, Altair BASIC was a huge step forward as it allowed people to write programs using a high-level programming language.
 
+## Get started docs
+
+Head to [Get started](/start/Deploy) to learn how to deploy and run the Altair 8800 emulator.
+
 ## Retro computing with Dave Glover and the Altair 8800
 
 <iframe width="100%" height="420" src="https://www.youtube.com/embed/fSz5lTaXS0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
