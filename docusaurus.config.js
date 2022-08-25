@@ -9,7 +9,7 @@ const config = {
   title: 'Altair 8800',
   tagline: 'Altair 8800',
   url: 'https://gloveboxes.github.io/', // Your website URL
-  baseUrl: '/altair_8800_posix_docs/',
+  baseUrl: '/altair_8800_docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'gloveboxes', // Usually your GitHub org/user name.
-  projectName: 'AltairEverywhereDocs', // Usually your repo name.
+  projectName: 'altair_8800_docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -38,7 +38,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/gloveboxes/altair_8800_posix_docs/tree/main',
+            'https://github.com/gloveboxes/altair_8800_docs/tree/main',
         },
         blog:false,
         // blog: {
@@ -62,7 +62,7 @@ const config = {
         title: 'Altair 8800',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
