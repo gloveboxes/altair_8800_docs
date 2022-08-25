@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-This is version 2 of the Azure Sphere Altair Emulator and shares the same code base as the [Altair on Azure Sphere](https://github.com/AzureSphereCloudEnabledAltair8800/AltairOnAzureSphere) project that runs on Azure Sphere.
+This is version 2 of the Altair 8800 emulator project and shares the same code base as the [Azure Sphere Cloud-Enabled Altair 8800](https://github.com/AzureSphereCloudEnabledAltair8800/AltairOnAzureSphere) as featured on the Register "[Microsoft adds cloud enablement to 1970s Altair 8800 tech](https://www.theregister.com/2021/07/16/altair_redux/)".
 
 ## Source code
 
