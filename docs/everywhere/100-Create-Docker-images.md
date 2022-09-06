@@ -7,6 +7,12 @@
     ```bash
     cd Docker
     ```
+    
+1. Switch Docker driver
+
+    ```bash
+    docker buildx create --use
+    ```
 
 1. Clear the Docker Buildx cache
 
