@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Wi-Fi configuration
 
-There are two options to configure the WiFi of the device. You can configure the WiFi with an SD Card or the Azure Sphere CLI. If you use a Mikroe Retro 8800 Click, then the IP address will be displayed on the LED panel.
+There are two options to configure the WiFi of the device. You can configure the WiFi with an SD Card or the Azure Sphere CLI. If you use a Mikroe Retro 8800 Click, then the IP address will be displayed on the LED panel when the device successfully connects to a WiFi network.
 
 ## WiFi provisioning with an SD card
 
