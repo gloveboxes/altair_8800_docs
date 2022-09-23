@@ -10,6 +10,7 @@ Follow these instructions to create an Altair boot SD card or a Wi-Fi enabled Al
 
 1. Install [Balena Etcher](https://www.balena.io/etcher) to flash an SD card.
 1. Install Python 3 from the [Python download web page](https://www.python.org/downloads).
+1. Install [PyYaml](https://pypi.org/project/PyYAML/)
 
 ## Create an Altair boot SD card
 
