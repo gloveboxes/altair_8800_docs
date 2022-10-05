@@ -108,9 +108,12 @@ The following tables show output port numbers and port data values. Typically, c
 | 64   | 0      | Loads accelerometer X axis |
 | 64   | 1      | Loads accelerometer Y axis |
 | 64   | 2      | Loads accelerometer Z axis |
-| 64   | 3      | Calibrate then start the accelerometer |
-| 64   | 4      | Stop the accelerometer readings |
+| 64   | 3      | Start the accelerometer timer|
+| 64   | 4      | Stop the accelerometer timer |
 | 64   | 5      | One-off accelerometer reading |
+| 64   | 6      | Calibrate accelerometer for angular rate|
+| 64   | 7      | Load accelerometer for angular rate |
+| 64   | 8      | Get latest movement inference result |
 | 66   | 0      | Power management disable |
 | 66   | 1      | Power management enable |
 | 66   | 2      | Power management sleep |
