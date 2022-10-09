@@ -6,7 +6,7 @@ sidebar_position: 5
 
 The easiest way to run the Altair 8800 emulator is with Docker. You need to install Docker on your Linux, macOS, Windows, or Raspberry Pi computer.
 
-If you prefer, you can compile the Altair code from the source code and run it as a native application on your computer. For more information, refer to [Compiling the Altair emulator](03-Compile-the-Altair/01-Introduction.md).
+If you have a Beaglebone or prefer, you can compile the Altair code from the source code and run it as a native application on your computer. For more information, refer to [Compiling the Altair emulator](03-Compile-the-Altair/01-Introduction.md).
 
 ## Install Docker
 

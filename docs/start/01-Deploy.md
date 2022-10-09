@@ -7,9 +7,10 @@ The Altair 8800 emulator has been tested and is supported on the following POSIX
 - Windows 10 and 11 with [WSL 2](https://docs.microsoft.com/windows/wsl/)
 - Ubuntu 20.04
 - macOS Monterey,
-- and Raspberry Pi OS 32 bit and 64 bit.
+- Raspberry Pi OS 32-bit and 64-bit,
+- Beaglebone Debian 32-bit.
 
-Follow the [Deploy on Windows, Linux, macOS, and Raspberry Pi](../everywhere/10-Architecture.md) instructions.
+Follow the [Deploy on Windows, Linux, macOS, Raspberry Pi, and Beaglebone](../everywhere/10-Architecture.md) instructions.
 
 ## Azure Sphere
 
