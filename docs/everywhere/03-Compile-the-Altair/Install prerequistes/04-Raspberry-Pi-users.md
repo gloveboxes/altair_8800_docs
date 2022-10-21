@@ -15,7 +15,7 @@ The easiest way to install Raspberry Pi OS is to use the latest version of the [
 1. From the SSH session, run the following command to install the required packages
 
     ```bash
-    sudo apt-get install -y libuv1-dev cmake build-essential gdb curl libcurl4-openssl-dev libssl-dev uuid-dev ca-certificates git libi2c-dev
+    sudo apt-get install -y libuv1-dev cmake build-essential gdb curl libcurl4-openssl-dev libssl-dev uuid-dev ca-certificates git libi2c-dev libgpiod-dev gpiod
     ```
 
 ## Raspberry Pi Sense HAT support
