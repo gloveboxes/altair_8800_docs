@@ -18,5 +18,5 @@
 1. Run the following command to install the required packages.
 
     ```bash
-    brew install libuv openssl ossp-uuid
+    brew install libuv openssl ossp-uuid cmake
     ```
