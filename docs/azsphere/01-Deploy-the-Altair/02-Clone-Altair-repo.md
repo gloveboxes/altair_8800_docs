@@ -9,5 +9,5 @@ sidebar_position: 2
 1. From the command line, clone the Altair emulator repo from GitHub. The Altair project will be cloned into a folder named **AltairOnAzureSphere**.
 
     ```bash
-    git clone --recurse-submodules https://github.com/AzureSphereCloudEnabledAltair8800/AI-and-Cloud-Powered-Altair-8800-on-Azure-Sphere.git AltairOnAzureSphere
+    git clone --recurse-submodules https://github.com/AzureSphereCloudEnabledAltair8800/AltairOnAzureSphere.git AltairOnAzureSphere
     ```
