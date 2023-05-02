@@ -146,18 +146,29 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      /* Clarity Config */
+      clarity: {
+        ID: "gxh3te8yxv", 
+      }
     }),
+
+    plugins: [
+      [
+        '@docusaurus/plugin-ideal-image',
+        {
+          quality: 96,
+          max: 1000, // max resized image's size.
+          min: 420, // min resized image's size. 
+          steps: 4, // #images b/w min and max (inclusive)
+          disableInDev: false,
+        },
+      ],
+      [
+        'docusaurus-plugin-clarity',
+        {
+        }
+      ],
+    ],
 };
 
 module.exports = config;
-
-// module.exports = {
-//   // ...
-//   url: 'https://gloveboxes.github.io/', // Your website URL
-//   baseUrl: '/AltairEverywhereDocs/',
-//   projectName: 'AltairEverywhereDocs',
-//   organizationName: 'gloveboxes',
-//   trailingSlash: false,
-//   title: 'Altair 8800 Everywhere',
-//   // ...
-// };
