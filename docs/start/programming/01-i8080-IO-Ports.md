@@ -160,6 +160,16 @@ The following tables show output port numbers and port data values. Typically, c
 | 101   | 0 | Clear, turn all pixels off |
 | 102   | 0 | Draw bitmap |
 
+#### OpenAI ChatGPT
+
+| Port | Port data  | Loads |
+| 120   | 0..255 | Set system Message |
+| 121   | 0..255 | Set user message |
+| 122   | 0..255 | Set assistant message|
+| 123   | 0 | Load ChatGPT stream |
+| 124   | 0 | Clear all messages |
+
+
 ### Input ports
 
 Typically, input ports will read data loaded by an output port.
@@ -175,6 +185,7 @@ Typically, input ports will read data loaded by an output port.
 | 200  | Read loaded byte stream |
 | 201  | Read webget file stream |
 | 202  | Read devget file stream |
+| 123  | Read OpenAi ChatGPT stream |
 
 **Notes.**
 
