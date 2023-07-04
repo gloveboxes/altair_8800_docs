@@ -167,8 +167,10 @@ The following tables show output port numbers and port data values. Typically, c
 | 120   | 0..255 | Set system Message |
 | 121   | 0..255 | Set user message |
 | 122   | 0..255 | Set assistant message|
-| 123   | 0 | Load ChatGPT stream |
-| 124   | 0 | Clear all messages |
+| 123   | 0 | Clear all messages |
+| 124   | 0 | Load ChatGPT stream |
+| 125   | 0 | Cancel ChatGPT stream |
+
 
 
 ### Input ports
