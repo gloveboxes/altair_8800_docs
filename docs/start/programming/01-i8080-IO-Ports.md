@@ -163,6 +163,7 @@ The following tables show output port numbers and port data values. Typically, c
 #### OpenAI ChatGPT
 
 | Port | Port data  | Loads |
+|------|-------|:---------|
 | 120   | 0..255 | Set system Message |
 | 121   | 0..255 | Set user message |
 | 122   | 0..255 | Set assistant message|
