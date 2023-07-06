@@ -190,7 +190,6 @@ Typically, input ports will read data loaded by an output port.
 | 121  | Read OpenAI message |
 | 122  | Read OpenAI finished status |
 
-
 **Notes.**
 
 1. Requires an Open Weather Map API Key, and an active internet connection.
