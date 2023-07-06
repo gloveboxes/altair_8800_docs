@@ -186,12 +186,16 @@ Typically, input ports will read data loaded by an output port.
 | 201  | Read webget file stream |
 | 202  | Read devget file stream |
 | 123  | Read OpenAi ChatGPT stream |
+| 120  | Read OpenAI streaming status |
+| 121  | Read OpenAI message |
+| 122  | Read OpenAI finished status |
+
 
 **Notes.**
 
 1. Requires an Open Weather Map API Key, and an active internet connection.
-1. Requires an active internet connection to call the [geojs.io](https://get.geojs.io/v1/ip/geo.json) web service.
-1. Requires an active internet connection and a free or paid tier or Azure IoT Central.
+2. Requires an active internet connection to call the [geojs.io](https://get.geojs.io/v1/ip/geo.json) web service.
+3. Requires an active internet connection and a free or paid tier or Azure IoT Central.
 
 ## Using Intel 8080 Input Output ports
 
