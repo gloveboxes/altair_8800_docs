@@ -96,7 +96,7 @@ Open the Web Terminal to access the Altair emulator. Follow these steps.
 
     :::note
     
-    You must connect using `http`, not `https`. This is because you cannot connect to the insecure Altair WebSocket from a page loaded over HTTPS.
+    You must connect using `http`. This is because you cannot connect to the insecure Altair WebSocket from a page loaded over HTTPS.
     
     :::
 
