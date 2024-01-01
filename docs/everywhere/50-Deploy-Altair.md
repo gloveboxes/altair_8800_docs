@@ -94,11 +94,11 @@ Open the Web Terminal to access the Altair emulator. Follow these steps.
 1. Familiarize yourself with the [Web Terminal](../start/20-Web-Terminal.md) and the CP/M operating system.
 1. To start the web terminal, from your web browser open the following link [http://aterminal.z8.web.core.windows.net/](http://aterminal.z8.web.core.windows.net/).
 
-:::note
-
-You must connect using `http`, not `https`. This is because you cannot connect to the insecure Altair WebSocket from a page loaded over HTTPS.
-
-:::
+    :::note
+    
+    You must connect using `http`, not `https`. This is because you cannot connect to the insecure Altair WebSocket from a page loaded over HTTPS.
+    
+    :::
 
 
 1. To connect to the Altair emulator, enter the IP address or hostname of the computer or device running the Altair emulator. If you are running the Altair emulator on your local computer, then connect to address **localhost**. Then select **Connect**.
