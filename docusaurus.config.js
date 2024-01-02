@@ -75,7 +75,7 @@ const config = {
             type: 'docSidebar',  // docSidebar
             position: 'left',
             sidebarId: 'everywhere', // foldername
-            label: 'Deploy on Windows, Linux, macOS, Raspberry Pi, and Beaglebone',     // navbar title
+            label: 'Deploy on Windows, macOS, and Linux (inc Raspberry Pi)',     // navbar title
           },
           {
             type: 'docSidebar',  // docSidebar
