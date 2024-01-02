@@ -92,7 +92,7 @@ docker run -e TZ=Australia/Sydney -d --privileged -p 8082:8082 -p 80:80 --name a
 Open the Web Terminal to access the Altair emulator. Follow these steps.
 
 1. Familiarize yourself with the [Web Terminal](../start/20-Web-Terminal.md) and the CP/M operating system.
-1. To start the web terminal, from your web browser open the following link [http://aterminal.z8.web.core.windows.net/](http://aterminal.z8.web.core.windows.net/).
+1. To start the web terminal, from your web browser, navigate to `http://localhost` if you deployed the Altair emulator on your local machine, or `http://NAME_OR_IP_OF_COMPUTER_RUNNING_THE_ALTAIR_EMULATOR`.
 
     :::note
     
@@ -101,7 +101,7 @@ Open the Web Terminal to access the Altair emulator. Follow these steps.
     :::
 
 
-1. To connect to the Altair emulator, enter the IP address or hostname of the computer or device running the Altair emulator. If you are running the Altair emulator on your local computer, then connect to address **localhost**. Then select **Connect**.
+1. To connect to the Altair emulator, enter the IP address or hostname of the computer or device running the Altair emulator. If you are running the Altair emulator on your local computer, then connect to address `localhost`, or the `hostname` of the computer you deployed the Altair emulator on. Then select **Connect**.
 
     ![The following image is of the web terminal command prompt](img/web_terminal.png)
 
