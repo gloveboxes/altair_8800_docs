@@ -103,12 +103,21 @@ You can persist the Altair emulator disks to a Docker storage volume. This ensur
    docker run -e TZ=Australia/Sydney -d -p 8082:8082 --name altair8800 -p 80:80 -v altair-disks:/AltairEverywhere/AltairHL_emulator/Disks  --rm glovebox/altair8800:latest
    ```
 
+1. Inspect the persistent storage volume
+
+    ```shell
+    docker volume inspect altair-disks
+    ```
+
+    ```shell
+    sudo ls /var/lib/docker/volumes/altair-disks/_data -all
+    ```
+
 1. To remove the persistent storage volume.
 
    ```shell
    docker volume rm azure-sql-edge-data
    ```
-
 
 ## Open the Web Terminal
 
