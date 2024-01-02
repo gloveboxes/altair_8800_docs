@@ -89,9 +89,12 @@ docker run -e TZ=Australia/Sydney -d --privileged -p 8082:8082 -p 80:80 --name a
 
 ### Mapping the Altair emulator disks volume
 
-1. Create the altair-disks Docker volume.
+You can persist the Altair emulator disks to a Docker storage volume. This ensures any changes made to the contents of the Altair disks are saved if the Docker container is deleted.
+
+1. Create a new persistent storage volume in the Altair emulator.
 
    ```shell
+   docker volume create altair-disks
    ```
 
 1. Run the Docker container and map the Disks volume.
@@ -100,6 +103,11 @@ docker run -e TZ=Australia/Sydney -d --privileged -p 8082:8082 -p 80:80 --name a
    docker run -e TZ=Australia/Sydney -d -p 8082:8082 --name altair8800 -p 80:80 -v altair-disks:/AltairEverywhere/AltairHL_emulator/Disks  --rm glovebox/altair8800:latest
    ```
 
+1. To remove the persistent storage volume.
+
+   ```shell
+   docker volume rm azure-sql-edge-data
+   ```
 
 
 ## Open the Web Terminal
