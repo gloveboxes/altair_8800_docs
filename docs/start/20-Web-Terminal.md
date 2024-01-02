@@ -6,8 +6,6 @@ sidebar_position: 1
 
 The Altair web terminal is a remote terminal command prompt for the Altair emulator. The web terminal is a static web app and is hosted in your web browser and connects to the Altair emulator. When the web terminal connects, the Altair terminal reports the emulator and CP/M versions, and you can start to use the Altair.
 
-The Altair web terminal url is [http://aterminal.z8.web.core.windows.net/](http://aterminal.z8.web.core.windows.net/).
-
 Note, there are links on the web terminal to the retro games GitHub repo, the documentation, and user and programming manuals.
 
 ![This image shows the web terminal](img/web_terminal_intro.png)
