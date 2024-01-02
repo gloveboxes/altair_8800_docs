@@ -60,7 +60,7 @@ Run the following command to start the Altair emulator. This command will:
 1. Set the Docker container time zone. Replace the Australia/Sydney time zone with your local time zone.
 
 ```bash
-docker run -e TZ=Australia/Sydney -d -p 8082:8082 --name altair8800 --rm glovebox/altair8800:latest
+docker run -e TZ=Australia/Sydney -d -p 8082:8082 --name altair8800 -p 80:80 --rm glovebox/altair8800:latest
 ```
 
 ### Raspberry Pi with Pi Sense HAT users
@@ -84,7 +84,7 @@ Run the following command to start the Altair emulator. This command will:
 1. Starts the Docker container in privileged mode so the emulator can control the Pi Sense HAT panel LEDs.
 
 ```bash
-docker run -e TZ=Australia/Sydney -d --privileged -p 8082:8082 --name altair8800 --rm glovebox/altair8800-pisense:latest
+docker run -e TZ=Australia/Sydney -d --privileged -p 8082:8082 -p 80:80 --name altair8800 --rm glovebox/altair8800-pisense:latest
 ```
 
 ## Open the Web Terminal
