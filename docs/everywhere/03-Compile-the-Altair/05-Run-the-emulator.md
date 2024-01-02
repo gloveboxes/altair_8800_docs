@@ -1,4 +1,4 @@
-# Start the Altair emulator
+# Start the emulator
 
 1. From a terminal window, go to the **Altair8800/AltairHL_emulator** folder that you cloned to your computer.
 1. Before you start the emulator, you need the following information.
