@@ -87,6 +87,21 @@ Run the following command to start the Altair emulator. This command will:
 docker run -e TZ=Australia/Sydney -d --privileged -p 8082:8082 -p 80:80 --name altair8800 --rm glovebox/altair8800-pisense:latest
 ```
 
+### Mapping the Altair emulator disks volume
+
+1. Create the altair-disks Docker volume.
+
+   ```shell
+   ```
+
+1. Run the Docker container and map the Disks volume.
+
+   ```shell
+   docker run -e TZ=Australia/Sydney -d -p 8082:8082 --name altair8800 -p 80:80 -v altair-disks:/AltairEverywhere/AltairHL_emulator/Disks  --rm glovebox/altair8800:latest
+   ```
+
+
+
 ## Open the Web Terminal
 
 Open the Web Terminal to access the Altair emulator. Follow these steps.
