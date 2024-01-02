@@ -50,7 +50,7 @@ If you have a Raspberry Pi and a Pi Sense HAT, then the 8x8 LED panels can displ
 
 ## Start the Altair Docker image
 
-There are two Altair Docker images. The first is for general use on 64-bit [Linux, macOS, Windows and Raspberry Pi operating systems](#general-linux-macos-windows-and-raspberry-pi-users). The second image is for a Raspberry Pi running [Raspberry Pi OS with a Pi Sense HAT](#raspberry-pi-with-pi-sense-hat-users). Be sure to run the Docker image that matches your system.
+There are two Altair Docker images. The first is for general use on 64-bit (ARM64 and AMD64) [Linux, macOS, Windows and Raspberry Pi operating systems](#general-linux-macos-windows-and-raspberry-pi-users). The second image is for a Raspberry Pi running [Raspberry Pi OS with a Pi Sense HAT](#raspberry-pi-with-pi-sense-hat-users). Be sure to run the Docker image that matches your system.
 
 ### General Linux, macOS, Windows, and Raspberry Pi users
 
