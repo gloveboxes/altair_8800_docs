@@ -38,18 +38,35 @@ There are two Altair Docker images. The first is for general use on 64-bit [Linu
 
 ### General Linux, macOS, Windows, and Raspberry Pi users
 
-Run the following command to start the Altair emulator Docker image. This command will load the environment file and map the ports for the web terminal.
+Run the following command to start the Altair emulator. This command will:
+
+1. Create a Docker persistent storage volume.
+1. Map the ports for the web terminal.
+1. Set the Docker container time zone. Replace the Australia/Sydney time zone with your local time zone.
+
+#### Create a new persistent storage volume
 
 ```bash
-docker run -d --env-file ~/altair.env -p 8082:8082 -p 80:80 --name altair8800 --rm glovebox/altair8800:latest
+docker volume create altair-disks
+```
+
+#### Start the Altair emulator
+
+```bash
+docker run -d --env-file ~/altair.env -p 8082:8082 -p 80:80 -v altair-disks:/AltairEverywhere/AltairHL_emulator/Disks --name altair8800 --rm glovebox/altair8800:latest
 ```
 
 ### Raspberry Pi with Pi Sense HAT users
 
-If you have a Raspberry Pi with a Pi Sense HAT, run the following commands.  These commands will:
+Run the following command to start the Altair emulator. This command will:
 
-- enable I2C hardware access,
-- start the Altair Docker image.
+1. Enable I2C hardware access.
+2. Create a Docker persistent storage volume.
+3. Map the ports for the web terminal.
+4. Set the Docker container time zone. Replace the Australia/Sydney time zone with your local time zone.
+5. Starts the Docker container in privileged mode so the emulator can control the Pi Sense HAT panel LEDs.
+
+#### Enable I2C hardware access
 
 From the command prompt, run the following command to enable I2C support for the Pi Sense HAT.
 
@@ -57,11 +74,37 @@ From the command prompt, run the following command to enable I2C support for the
 sudo raspi-config nonint do_i2c 0
 ```
 
-From the command prompt, run the following command to download and run the Docker image with Pi Sense HAT support. Replace the Australia/Sydney time zone with your local time zone.
+#### Create a new persistent storage volume
 
 ```bash
-docker run -d --env-file ~/altair.env --privileged -p 8081:8081 -p 8082:8082 -p 80:80 --name altair8800 --rm glovebox/altair8800-pisense:latest
+docker volume create altair-disks
 ```
+
+#### Start the Altair emulator
+
+```bash
+docker run -d --env-file ~/altair.env --privileged -p 8081:8081 -p 8082:8082 -p 80:80 -v altair-disks:/AltairEverywhere/AltairHL_emulator/Disks --name altair8800 --rm glovebox/altair8800-pisense:latest
+```
+
+### Managing the Docker persistent storage volume
+
+1. Inspect the persistent storage volume
+
+    ```bash
+    docker volume inspect altair-disks
+    ```
+
+2. Check the data in the persistent storage volume
+
+    ```bash
+    sudo ls /var/lib/docker/volumes/altair-disks/_data -all
+    ```
+
+3. To remove the persistent storage volume.
+
+   ```bash
+   docker volume rm azure-sql-edge-data
+   ```
 
 ## Open the Web Terminal
 

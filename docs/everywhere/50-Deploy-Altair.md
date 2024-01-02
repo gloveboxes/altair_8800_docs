@@ -35,7 +35,7 @@ Install Docker on your computer.
 
 ## Start the Altair emulator Docker container
 
-The Docker Altair image runs on 64 bit Linux, macOS, Windows, and Raspberry Pi OS.
+The Docker Altair image runs on 64 bit Linux, macOS, Windows, and Raspberry Pi OS. The Altair emulator disks are stored in a Docker persistent storage volume. This ensures any changes made to the contents of the Altair disks are saved if the Docker container is deleted.
 
 ## Pi Sense HAT LED panel
 
@@ -56,20 +56,33 @@ There are two Altair Docker images. The first is for general use on 64-bit (ARM6
 
 Run the following command to start the Altair emulator. This command will:
 
+1. Create a Docker persistent storage volume.
 1. Map the ports for the web terminal.
 1. Set the Docker container time zone. Replace the Australia/Sydney time zone with your local time zone.
 
+#### Create a new persistent storage volume
+
 ```bash
-docker run -e TZ=Australia/Sydney -d -p 8082:8082 --name altair8800 -p 80:80 --rm glovebox/altair8800:latest
+docker volume create altair-disks
+```
+
+#### Start the Altair emulator
+
+```bash
+docker run -e TZ=Australia/Sydney -d -p 8082:8082 -p 80:80 --name altair8800 -v altair-disks:/AltairEverywhere/AltairHL_emulator/Disks --rm glovebox/altair8800:latest
 ```
 
 ### Raspberry Pi with Pi Sense HAT users
 
-If you have a Raspberry Pi with a Pi Sense HAT, run the following commands.  These commands will:
+Run the following command to start the Altair emulator. This command will:
 
-- enable I2C hardware access,
-- map the ports for the web terminal,
-- and enables Docker privileged mode required to access the Raspberry Pi Sense HAT.
+1. Enable I2C hardware access.
+2. Create a Docker persistent storage volume.
+3. Map the ports for the web terminal.
+4. Set the Docker container time zone. Replace the Australia/Sydney time zone with your local time zone.
+5. Starts the Docker container in privileged mode so the emulator can control the Pi Sense HAT panel LEDs.
+
+#### Enable I2C hardware access
 
 From the command prompt, run the following command to enable I2C support for the Pi Sense HAT.
 
@@ -77,45 +90,35 @@ From the command prompt, run the following command to enable I2C support for the
 sudo raspi-config nonint do_i2c 0
 ```
 
-Run the following command to start the Altair emulator. This command will:
-
-1. Map the ports for the web terminal.
-1. Set the Docker container time zone. Replace the Australia/Sydney time zone with your local time zone.
-1. Starts the Docker container in privileged mode so the emulator can control the Pi Sense HAT panel LEDs.
+#### Create a new persistent storage volume
 
 ```bash
-docker run -e TZ=Australia/Sydney -d --privileged -p 8082:8082 -p 80:80 --name altair8800 --rm glovebox/altair8800-pisense:latest
+docker volume create altair-disks
 ```
 
-### Mapping the Altair emulator disks volume
+#### Start the Altair emulator
 
-You can persist the Altair emulator disks to a Docker storage volume. This ensures any changes made to the contents of the Altair disks are saved if the Docker container is deleted.
+```bash
+docker run -e TZ=Australia/Sydney -d --privileged -p 8082:8082 -p 80:80 --name altair8800 -v altair-disks:/AltairEverywhere/AltairHL_emulator/Disks --rm glovebox/altair8800-pisense:latest
+```
 
-1. Create a new persistent storage volume in the Altair emulator.
-
-   ```shell
-   docker volume create altair-disks
-   ```
-
-1. Run the Docker container and map the Disks volume.
-
-   ```shell
-   docker run -e TZ=Australia/Sydney -d -p 8082:8082 --name altair8800 -p 80:80 -v altair-disks:/AltairEverywhere/AltairHL_emulator/Disks  --rm glovebox/altair8800:latest
-   ```
+### Managing the Docker persistent storage volume
 
 1. Inspect the persistent storage volume
 
-    ```shell
+    ```bash
     docker volume inspect altair-disks
     ```
 
-    ```shell
+2. Check the data in the persistent storage volume
+
+    ```bash
     sudo ls /var/lib/docker/volumes/altair-disks/_data -all
     ```
 
-1. To remove the persistent storage volume.
+3. To remove the persistent storage volume.
 
-   ```shell
+   ```bash
    docker volume rm azure-sql-edge-data
    ```
 
