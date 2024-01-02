@@ -17,7 +17,7 @@ The Altair emulator runs in Docker and on desktop and device operating systems. 
 
 ## Docker
 
-The **fastest** way to run the Altair emulator is on a computer, including Raspberry Pi, with Docker.
+The **fastest** way to get started with the Altair emulator is on a computer running Docker.
 
 ## Desktop operating systems
 
