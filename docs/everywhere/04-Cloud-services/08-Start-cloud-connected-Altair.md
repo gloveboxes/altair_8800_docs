@@ -41,7 +41,7 @@ There are two Altair Docker images. The first is for general use on 64-bit [Linu
 Run the following command to start the Altair emulator Docker image. This command will load the environment file and map the ports for the web terminal.
 
 ```bash
-docker run -d --env-file ~/altair.env -p 8082:8082 --name altair8800 --rm glovebox/altair8800:latest
+docker run -d --env-file ~/altair.env -p 8082:8082 -p 80:80 --name altair8800 --rm glovebox/altair8800:latest
 ```
 
 ### Raspberry Pi with Pi Sense HAT users
@@ -60,15 +60,17 @@ sudo raspi-config nonint do_i2c 0
 From the command prompt, run the following command to download and run the Docker image with Pi Sense HAT support. Replace the Australia/Sydney time zone with your local time zone.
 
 ```bash
-docker run -d --env-file ~/altair.env --privileged -p 8081:8081 -p 8082:8082 --name altair8800 --rm glovebox/altair8800-pisense:latest
+docker run -d --env-file ~/altair.env --privileged -p 8081:8081 -p 8082:8082 -p 80:80 --name altair8800 --rm glovebox/altair8800-pisense:latest
 ```
 
 ## Open the Web Terminal
 
 Open the Web Terminal to access the Altair emulator. Follow these steps.
 
-1. Familiarize yourself with the [Web Terminal](../../start/20-Web-Terminal.md) and the CP/M operating system.
-1. To start the web terminal, from your web browser open the following link [http://aterminal.z8.web.core.windows.net/](http://aterminal.z8.web.core.windows.net/).
+1. Familiarize yourself with the [Web Terminal](../start/20-Web-Terminal.md) and the CP/M operating system.
+1. To start the web terminal, from your web browser:
+    * Navigate to `http://localhost` if you deployed the Altair emulator on your local computer.
+    * Navigate to `http://hostname_ip_address` if you deployed the Altair emulator on a remote computer.
 1. Enter the Altair hostname or IP Address in the textbox and select **Connect**. If you are running the Altair on your local computer, then the hostname will be **localhost**. Otherwise enter the hostname of IP address of the system running the Altair emulator.
 1. Once connected, you will be greeted by the CP/M command prompt.
 
