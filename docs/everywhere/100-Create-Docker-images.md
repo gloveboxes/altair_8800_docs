@@ -52,6 +52,12 @@
     docker buildx build . --platform linux/arm64 --tag YOUR_DOCKER_ID/altair8800-pisense:latest --push
     ```
 
+1. Switch to default context
+
+   ```bash
+   docker context use default
+   ```
+
 ## Altair as a shared service
 
 1. Change to the Docker folder
