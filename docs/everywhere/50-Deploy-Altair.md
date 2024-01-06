@@ -119,7 +119,7 @@ docker run -e TZ=Australia/Sydney -d --privileged -p 8082:8082 -p 80:80 --name a
 3. To remove the persistent storage volume.
 
    ```bash
-   docker volume rm azure-sql-edge-data
+   docker volume rm altair-disks
    ```
 
 ## Open the Web Terminal
