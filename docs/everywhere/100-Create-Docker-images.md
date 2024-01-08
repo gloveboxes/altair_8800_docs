@@ -55,7 +55,7 @@
 1. Switch to default context
 
    ```bash
-   docker buildx use default
+   docker buildx use default && docker context use default 
    ```
 
 ## Altair as a shared service
