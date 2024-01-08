@@ -114,7 +114,5 @@ Open the Web Terminal to access the Altair emulator. Follow these steps.
 1. Open your web browser:
     * Navigate to `http://localhost` if you deployed the Altair emulator on your local computer.
     * Navigate to `http://hostname_or_ip_address` if you deployed the Altair emulator on a remote computer.
-1. Connect to the Altair emulator, enter the `localhost`, the `Hostname` or the `IP address` of the computer running the Altair emulator.
-1. Select **Connect**. Once connected, you will be greeted by the CP/M command prompt.
 
-    ![The image shows the web terminal](img/web_terminal.png)
+    ![The image shows the web terminal](../../start/img/web_terminal_intro.png)

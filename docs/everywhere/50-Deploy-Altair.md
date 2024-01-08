@@ -131,7 +131,7 @@ Open the Web Terminal to access the Altair emulator. Follow these steps.
     * Navigate to `http://localhost` if you deployed the Altair emulator on your local computer.
     * Navigate to `http://hostname_or_ip_address` if you deployed the Altair emulator on a remote computer.
 
-    ![The following image is of the web terminal command prompt](img/web_terminal.png)
+    ![The following image is of the web terminal command prompt](../start/img/web_terminal_intro.png)
 
 ## Stop the Altair emulator Docker container
 
