@@ -59,42 +59,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Altair 8800',
+        title: 'Altair 8800 Emulator',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
         },
         items: [
-          {
-            type: 'docSidebar',  // docSidebar
-            position: 'left',
-            sidebarId: 'start', // foldername
-            label: 'Get started',     // navbar title
-          },
-          {
-            type: 'docSidebar',  // docSidebar
-            position: 'left',
-            sidebarId: 'everywhere', // foldername
-            label: 'Deploy with Docker',     // navbar title
-          },
-          {
-            type: 'docSidebar',  // docSidebar
-            position: 'left',
-            sidebarId: 'azsphere', // foldername
-            label: 'Deploy on Azure Sphere',     // navbar title
-          },
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
+         
         ],
       },
       footer: {
@@ -104,7 +75,7 @@ const config = {
           //   title: 'Docs',
           //   items: [
           //     {
-          //       label: 'Altair Everywhere',
+          //       label: 'Altair docker',
           //       to: '/',
           //     },
           //   ],

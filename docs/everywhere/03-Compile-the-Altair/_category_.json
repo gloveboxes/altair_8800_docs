@@ -1,8 +1,0 @@
-{
-  "label": "Compile the Altair",
-  "position": 10,
-  "link": {
-    "type": "generated-index",
-    "description": "Learn about cloud services for the Altair emulator."
-  }
-}
