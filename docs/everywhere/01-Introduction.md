@@ -11,27 +11,25 @@ This is version 2 of the Altair 8800 emulator project and it shares the same cod
 - The Altair Everywhere source code is maintained at [AI and Cloud powered Altair 8800 Everywhere](https://github.com/gloveboxes/Altair_8800_Everywhere).
 - All the source is provided under an MIT License, and contributions are very welcome.
 
-## Run the Altair
+<!-- ## Run the Altair emulator with Docker
 
-The Altair emulator runs in Docker and on desktop and device operating systems. There are extended experiences when you run the Altair emulator on a device.
+The Altair emulator runs in Docker and on desktop and device operating systems. There are extended experiences when you run the Altair emulator on a device. -->
 
-## Docker
+## Run the Altair emulator with Docker
 
-The **fastest** way to get started with the Altair emulator is on a computer running Docker.
+The **fastest** and **easiest** way to get started with the Altair emulator is on a system running Docker. You can run Docker on Linux, macOS, Windows, and Raspberry Pi OS.
 
-## Desktop operating systems
+<!-- ## Desktop operating systems
 
-The Altair emulator also runs on [POSIX](https://en.wikipedia.org/wiki/POSIX) compatible operating systems including, Linux, Windows with [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install), macOS on Apple Silicon and Intel.
+The Altair emulator also runs on [POSIX](https://en.wikipedia.org/wiki/POSIX) compatible operating systems including, Linux, Windows with [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install), macOS on Apple Silicon and Intel. -->
 
-## Raspberry Pi
+## Raspberry Pi with a Pi Sense HAT
 
-The more **interesting** way to run the Altair emulator is on a device, the Altair emulator has been tested on the following devices:
+The more **interesting** way to run the Altair emulator is on the Raspberry Pi with a Pi Sense HAT. 
 
-1. [Raspberry Pi](https://www.raspberrypi.org/), models, Zero 1 W & 2 W, 2B, 3A, 3B, and 4 running Raspberry Pi OS 32-bit and 64-bit (recommended).
+The Altair emulator running in Docker has been tested on the following [Raspberry Pi](https://www.raspberrypi.org/) models: Zero 2W, 2B, 3A, 3B, 4B, 5B running Raspberry Pi OS 64-bit.
 
-## Raspberry Pi Sense HAT
-
-If you pair a Raspberry Pi with a [Pi Sense HAT](https://www.raspberrypi.com/products/sense-hat/), the Altair address and data bus activity is displayed on the 8x8 LED panel.
+The Raspberry Pi paired with a [Pi Sense HAT](https://www.raspberrypi.com/products/sense-hat/) displays the Altair address and data bus activity on the 8x8 LED panel.
 
 | Raspberry Pi with Pi Sense HAT  | Raspberry Pi Sense HAT |
 |--|--|
