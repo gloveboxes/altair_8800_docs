@@ -83,7 +83,7 @@ docker volume create altair-disks
 #### Start the Altair emulator
 
 ```bash
-docker run -d --env-file ~/altair.env --privileged -p 8081:8081 -p 8082:8082 -p 80:80 -v altair-disks:/AltairEverywhere/AltairHL_emulator/Disks --name altair8800 --rm glovebox/altair8800-pisense:latest
+docker run -d --env-file ~/altair.env --privileged -p 8082:8082 -p 80:80 -v altair-disks:/AltairEverywhere/AltairHL_emulator/Disks --name altair8800 --rm glovebox/altair8800-pisense:latest
 ```
 
 ### Managing the Docker persistent storage volume
