@@ -1,12 +1,19 @@
----
-sidebar_position: 2
----
+# The Altair emulator
 
-# Architecture
+The Altair 8800 emulator is a software program that emulates the Altair 8800 computer. The Altair emulator is written in C and runs on most desktop operating systems as well as devices like the Raspberry Pi, Beaglebone, and Azure Sphere.
 
-The Altair emulator runs on [POSIX](https://en.wikipedia.org/wiki/POSIX) compatible operating systems including, Linux, Windows with [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install), macOS on Apple Silicon and Intel.
+This is version 2 of the Altair 8800 emulator project and it shares the same code base as the [Azure Sphere Cloud-Enabled Altair 8800](https://github.com/AzureSphereCloudEnabledAltair8800/AltairOnAzureSphere) as featured on the Register "[Microsoft adds cloud enablement to 1970s Altair 8800 tech](https://www.theregister.com/2021/07/16/altair_redux/)".
 
-![The following diagram summarizes the Altair emulator architecture.](img/Altair_8800_Application_Architecture.png)
+## Source code
+
+- The Altair emulator source code is maintained in the [Altair Everywhere](https://github.com/gloveboxes/AltairEverywhere) GitHub repo.
+- The soltion is Open Source and is provided under an MIT License, and contributions are very welcome.
+
+## Architecture
+
+The Altair emulator runs on [POSIX](https://en.wikipedia.org/wiki/POSIX) compatible operating systems including, Linux, Windows with [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install), macOS on Apple Silicon and Intel, as well as devices like Raspberry Pi, Beaglebone, and Azure Sphere.
+
+![The following diagram summarizes the Altair emulator architecture.](./img/Altair_8800_Application_Architecture.png)
 
 Starting from the bottom left and moving up and then to the right.
 
@@ -24,3 +31,13 @@ Starting from the bottom left and moving up and then to the right.
 - **Open Weather Map**: Open Weather Map provides planet-scale weather and pollution data services. Open Weather Map provides free access to weather and pollution data by geographic location.
 - **Azure IoT Central:** [Azure IoT Central](https://azure.microsoft.com/services/iot-central?azure-portal=true) is a customizable cloud-based Internet of Things (IoT) application platform. You can report, analyze, and export IoT data.
 
+
+## Raspberry Pi with a Pi Sense HAT
+
+There is specific support for the Altair emulator running on a Raspberry Pi with a Pi Sense HAT. The Altair emulator has been tested on the following [Raspberry Pi](https://www.raspberrypi.org/) models: Zero 2W, 2B, 3A, 3B, 4B, 5B running Raspberry Pi OS 64-bit.
+
+The Raspberry Pi paired with a [Pi Sense HAT](https://www.raspberrypi.com/products/sense-hat/) displays the Altair address and data bus activity on the 8x8 LED panel.
+
+| Raspberry Pi with Pi Sense HAT  | Raspberry Pi Sense HAT |
+|--|--|
+| ![The image shows the address and data bus LEDs](img/raspberry_pi_sense_hat_map.png) | ![The gif shows the address and data bus LEDs in action](img/raspberry_pi_sense_hat.gif) |

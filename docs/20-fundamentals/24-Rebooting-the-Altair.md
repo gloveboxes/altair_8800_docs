@@ -1,4 +1,4 @@
-# Rebooting the Altair
+# Rebooting the emulator
 
 There are various reasons why you might want to reboot the Altair operating system.
 

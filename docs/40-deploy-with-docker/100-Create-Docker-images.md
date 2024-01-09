@@ -1,5 +1,7 @@
 # Build docker images
 
+This page describes how to build the Altair Docker images and is provided for reference only. You don't need to build the Docker images to use the Altair emulator.
+
 ## Altair on ARM64 and AMD64
 
 1. Change to the Docker folder
@@ -52,12 +54,6 @@
     docker buildx build . --platform linux/arm64 --tag YOUR_DOCKER_ID/altair8800-pisense:latest --push
     ```
 
-1. Switch to default context
-
-   ```bash
-   docker buildx use default && docker context use default 
-   ```
-
 ## Altair as a shared service
 
 1. Change to the Docker folder
@@ -83,3 +79,11 @@
     ```bash
     docker buildx build . --platform linux/arm64,linux/amd64 --tag YOUR_DOCKER_ID/altair8800-cloud:latest --push
     ```
+
+## Switch to Docker to use the default context
+
+After building the Docker images, switch back to the default Docker context.
+
+   ```bash
+   docker buildx use default && docker context use default 
+   ```
