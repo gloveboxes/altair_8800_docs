@@ -37,9 +37,9 @@ The Altair emulator runs on desktop and device operating systems. The [source co
 
 ### Supported operating systems
 
-The **fastest** way to run the Altair emulator is on your computer with Docker on Linux, macOS, Windows, ChromeOS, and Raspberry Pi OS.
+The **fastest** and **easiest** way to run the Altair emulator is on your computer with Docker on Linux, macOS, Windows, ChromeOS, and Raspberry Pi OS.
 
-The Altair emulator also runs on [POSIX](https://en.wikipedia.org/wiki/POSIX) compatible operating systems including, Linux, Windows with [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install), macOS on Apple Silicon and Intel.
+The Altair emulator can also be compiled to run on [POSIX](https://en.wikipedia.org/wiki/POSIX) compatible operating systems including, Linux, ChromeOS, Windows with [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install), macOS on Apple Silicon and Intel.
 
 ### Supported devices
 
