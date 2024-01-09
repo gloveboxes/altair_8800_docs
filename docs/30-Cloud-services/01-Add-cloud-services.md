@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-Adding cloud services to the Altair 8800 emulator is optional, but it does provide some interesting features such as internet weather and pollution data, and the ability to report Altair 8800 telemetry to Azure IoT Central.
+Adding cloud services to the Altair 8800 emulator is **optional**, but it does provide some interesting features such as internet weather and pollution data, and the ability to report Altair 8800 telemetry to Azure IoT Central.
 
 You can use the following cloud services with the Altair emulator.
 
