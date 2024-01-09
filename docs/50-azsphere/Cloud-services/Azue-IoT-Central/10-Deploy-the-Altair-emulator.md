@@ -5,4 +5,4 @@
 
 ## Connect the Altair web terminal
 
-The Altair emulator will start running on the Azure Sphere device. Now connect the [Altair web terminal](../../../20-fundamentals/20-Web-Terminal.md).
+The Altair emulator will start running on the Azure Sphere device. Now connect the [Altair web terminal](../../../20-fundamentals/25-Web-Terminal.md).

@@ -34,7 +34,7 @@ The Altair project can be viewed through three lenses:
 
 The **easiest** way to try the Altair emulator is from your web browser. Select the following link, [Test Drive the Altair 8800 emulator](http://aterminal.z8.web.core.windows.net/?altair=altair.westus2.cloudapp.azure.com), and open the link in a new browser tab. The Altair web terminal will open, select **Connect** to start a 30-minute session. The web terminal connects to an instance of the emulator running in an [Azure Container Instance](https://azure.microsoft.com/services/container-instances/).
 
-Then learn about [CPM](20-Web-Terminal.md), software development with [BASIC](02-Programming-the-Altair/02-Microsoft-BASIC-programming.md), [C](02-Programming-the-Altair/03-C-programming.md), and [Assembly](02-Programming-the-Altair/04-Assembly-programming.md) using climate data sourced from [Open Weather Map](https://openweathermap.org/). Or take a break, and fire up a [retro game](20-Web-Terminal.md#get-started-with-retro-gaming).
+Then learn about [CPM](25-Web-Terminal.md), software development with [BASIC](02-Programming-the-Altair/02-Microsoft-BASIC-programming.md), [C](02-Programming-the-Altair/03-C-programming.md), and [Assembly](02-Programming-the-Altair/04-Assembly-programming.md) using climate data sourced from [Open Weather Map](https://openweathermap.org/). Or take a break, and fire up a [retro game](25-Web-Terminal.md#get-started-with-retro-gaming).
 
 ![The image shows a retro game running in the web terminal](../static/img/retro-game.png)
 

@@ -85,7 +85,7 @@ Select the Altair Docker image that matches your system. Be sure to replace the 
 
 Open the Web Terminal to access the Altair emulator. Follow these steps.
 
-1. Familiarize yourself with the [Web Terminal](../20-fundamentals/20-Web-Terminal.md) and the CP/M operating system.
+1. Familiarize yourself with the [Web Terminal](../20-fundamentals/25-Web-Terminal.md) and the CP/M operating system.
 2. Open your web browser:
     * Navigate to `http://localhost` if you deployed the Altair emulator on your local computer.
     * Navigate to `http://hostname_or_ip_address` if you deployed the Altair emulator on a remote computer.

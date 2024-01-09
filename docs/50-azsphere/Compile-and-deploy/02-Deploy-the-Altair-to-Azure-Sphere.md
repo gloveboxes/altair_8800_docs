@@ -59,4 +59,4 @@ If you have built an Altair Front Panel, you need to enable Azure Sphere SPI on 
 
 ## Connect the Altair web terminal
 
-The Altair emulator will start running on the Azure Sphere device. Now connect the [Altair web terminal](../../20-fundamentals/20-Web-Terminal.md).
+The Altair emulator will start running on the Azure Sphere device. Now connect the [Altair web terminal](../../20-fundamentals/25-Web-Terminal.md).

@@ -27,7 +27,7 @@ docker stop altair8800
 
 1. Remove the keys you don't need. For example, if you don't want to connect to Azure IoT Central then remove the ID_SCOPE, DEVICE_ID, and DERIVED_KEY keys.
 
-1.  Update the values with your data you copied from the [Cloud sevices](../20-fundamentals/40-Cloud-services/01-Add-cloud-services.md) page.
+1.  Update the values with your data you copied from the [Cloud sevices](../20-fundamentals/50-Cloud-services/01-Add-cloud-services.md) page.
 
     :::tip
 

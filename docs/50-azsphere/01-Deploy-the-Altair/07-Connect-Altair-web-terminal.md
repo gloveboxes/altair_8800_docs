@@ -8,4 +8,4 @@ The Altair web terminal is a remote terminal command prompt for the Altair emula
 
 **The Altair web terminal url is http://aterminal.z8.web.core.windows.net/**
 
-[Learn more about the Altair emulator web terminal](../../20-fundamentals/20-Web-Terminal.md).
+[Learn more about the Altair emulator web terminal](../../20-fundamentals/25-Web-Terminal.md).

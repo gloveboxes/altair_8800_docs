@@ -1,4 +1,4 @@
-# The Altair emulator
+# The altair emulator
 
 The Altair 8800 emulator is a software program that emulates the Altair 8800 computer. The Altair emulator is written in C and runs on most desktop operating systems as well as devices like the Raspberry Pi, Beaglebone, and Azure Sphere.
 
