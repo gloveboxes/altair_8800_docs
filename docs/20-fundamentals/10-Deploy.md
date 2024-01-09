@@ -29,7 +29,7 @@ Building the Altair 8800 emulator from source has been tested and is supported o
 
 - Windows 11 with [WSL 2](https://docs.microsoft.com/windows/wsl/)
 - Ubuntu 20.04
-- macOS Monterey,
+- macOS Sonoma,
 - Raspberry Pi OS 32-bit and 64-bit,
 - Beaglebone Debian 32-bit.
 
