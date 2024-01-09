@@ -48,7 +48,7 @@ Install [Git for Windows](https://git-scm.com/downloads?azure-portal=true).
 
 ## Ubuntu users
 
-Azure Sphere development is supported on Ubuntu 18.04 or 20.04 LTS.
+Azure Sphere development is supported on Ubuntu 20.04 and 22.04 LTS.
 
 You need to do the following:
 
