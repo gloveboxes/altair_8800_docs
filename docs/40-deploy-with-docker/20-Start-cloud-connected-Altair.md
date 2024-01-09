@@ -11,9 +11,8 @@ docker stop altair8800
 
 ## Create an environment file
 
-1. Go to the *Altair8800* folder that you cloned to your computer.
 1. Using your text editor of your choice create a *altair.env* environment file.
-1. Add the following keys to the file:
+2. Add the following keys to the file:
 
     ```env
     ID_SCOPE=
@@ -25,7 +24,7 @@ docker stop altair8800
 
     The ID_SCOPE, DEVICE_ID, and DERIVED_KEY values are used to connect the Altair emulator to Azure IoT Central. The OPEN_WEATHER_MAP_API_KEY value is used to connect the Altair emulator to Open Weather Map. The TZ value is used to set the time zone for the Altair emulator.
 
-2.  Update the values with your data you copied from the [Cloud sevices](../20-fundamentals/50-Cloud-services/01-Add-cloud-services.md) page.
+3.  Update the values with your data you copied from the [Cloud sevices](../20-fundamentals/50-Cloud-services/01-Add-cloud-services.md) page.
 
     :::tip
 
