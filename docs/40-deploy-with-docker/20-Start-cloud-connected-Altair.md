@@ -11,7 +11,7 @@ docker stop altair8800
 
 ## Create an environment file
 
-1. Using your text editor of your choice create a *altair.env* environment file.
+1. Using your text editor of your choice create a **altair.env** environment file.
 2. Add the following keys to the file:
 
     ```env
@@ -36,7 +36,7 @@ docker stop altair8800
 
 
 
-3. Save the file as **~/altair.env**. The commands below assume you have saved the Altair environment file to your computer's home directory.
+3. Save the file as **~/altair.env**. The commands below assume you have saved the Altair environment file to your computer or device's home directory.
 
 
 ## Select the Altair Docker image
