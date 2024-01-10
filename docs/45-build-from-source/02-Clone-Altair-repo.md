@@ -11,5 +11,5 @@ Run the following commands to clone the Altair8800 emulator repo to your compute
 1. Clone the repo
 
     ```bash
-    git clone --recurse-submodules https://github.com/gloveboxes/Altairdocker.git
+    git clone --recurse-submodules https://github.com/gloveboxes/AltairEverywhere
     ```
