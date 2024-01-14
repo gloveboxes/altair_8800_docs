@@ -26,7 +26,7 @@ Reasons to do this include:
 2. You want to make changes to the Altair emulator code.
 3. You want to run the Altair emulator on a device that does not support Docker.
 4. You'd want to learn how to build the Altair emulator from the source code.
-5. You have an Apple Silicon Mac and want to run the Altair emulator natively on one of the efficiency Apple Silicon cores.
+5. You have an Apple Silicon Mac and want to run the Altair emulator natively on one of the Apple Silicon efficiency cores.
 
 Building the Altair 8800 emulator from source has been tested and is supported on the following POSIX compatible operating systems.
 
