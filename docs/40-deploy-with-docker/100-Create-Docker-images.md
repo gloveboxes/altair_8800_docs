@@ -80,9 +80,17 @@ This page describes how to build the Altair Docker images and is provided for re
     docker buildx build . --platform linux/arm64,linux/amd64 --tag YOUR_DOCKER_ID/altair8800-cloud:latest --push
     ```
 
-## Switch to Docker to use the default context
+## Clean up
 
-After building the Docker images, switch back to the default Docker context.
+After building the Docker images:
+
+1. Clear the Docker Buildx cache
+
+    ```bash
+    docker buildx prune -a
+    ```
+
+1. Switch back to the default Docker context.
 
    ```bash
    docker buildx use default && docker context use default 
