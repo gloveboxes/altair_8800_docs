@@ -75,7 +75,7 @@ Install required build dependencies:
 
 ```bash
 sudo apt update
-sudo apt install -y build-essential cmake pkg-config autotools-dev autoconf libtool git
+sudo apt install -y build-essential cmake pkg-config autotools-dev autoconf libtool git autoconf-archive
 ```
 
 ### Installation Steps
