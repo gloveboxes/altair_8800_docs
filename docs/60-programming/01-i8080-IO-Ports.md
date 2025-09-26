@@ -29,6 +29,7 @@ The following tables show output port numbers and port data values. Typically, c
 | 43   | 0     | Current local date and time |
 | 44   | 0     | Generates a random number between -32000 and 32000 |
 | 68   | ASCII | Set getfile (gf) filename |
+| 109  | 0     | set getfile (gf) custom endpoint url index to 0. Should be called before setting the custom endpoint url. |
 | 110   | ASCII | Set getfile (gf) custom endpoint url |
 | 111   | 0 | Load getfile (gf) custom endpoint url |
 | 112   | 0 | Select getfile (gf) endpoint to use |
