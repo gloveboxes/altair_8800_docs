@@ -17,7 +17,6 @@ The Altair emulator disks are stored in a Docker persistent storage volume. This
 
 You need to follow these steps to start the Altair emulator Docker container.
 
-
 1. Enable I2C hardware access. This is only required if you are running the Altair emulator on a Raspberry Pi with a Pi Sense HAT.
 1. Create a Docker persistent storage volume.
 1. Select and start a Docker container.
@@ -30,26 +29,37 @@ If you are running the Altair emulator on a Raspberry Pi with a Pi Sense HAT, yo
 sudo raspi-config nonint do_i2c 0
 ```
 
-## Create a persistent storage volume
-
-```bash
-docker volume create altair-disks
-```
-
 ## Select the Altair Docker image
 
 Select the Altair Docker image that matches your system. Be sure to replace the Australia/Sydney time zone with your local time zone.
 
 1. For general use on 64-bit [Linux, macOS, Windows, and Raspberry Pi operating systems](#general-linux-macos-windows-and-raspberry-pi-users). Run the following command.
 
+Note, MQTT and Open Weather Map environment variables are optional. If you do not want to use these features, you can remove the `-e` options from the command.
+
     ```bash
-    docker run -e TZ=Australia/Sydney -d -p 8082:8082 -p 80:80 --name altair8800 -v altair-disks:/Altairdocker/AltairHL_emulator/Disks --rm glovebox/altair8800:latest
+    docker run -e TZ=Australia/Sydney \
+    -e MQTT_HOST=YOUR_MQTT_HOST -e MQTT_PORT=YOUR_MQTT_PORT -e MQTT_CLIENT_ID=YOUR_MQTT_CLIENT_ID \
+    -e OPEN_WEATHER_MAP_API_KEY=YOUR_OPEN_WEATHER_MAP_API_KEY \
+    -d --privileged --user root \
+    -p 8082:8082 -p 80:80 \
+    --name altair8800 \
+    -v altair-disks:/app/Disks \
+    --rm glovebox/altair8800:latest
     ```
 
-1. For a Raspberry Pi running [Raspberry Pi OS with a Pi Sense HAT](#raspberry-pi-with-pi-sense-hat-users). Run the following command.
+2. For a Raspberry Pi running [Raspberry Pi OS with a Pi Sense HAT](#raspberry-pi-with-pi-sense-hat-users). Run the following command.
 
     ```bash
-    docker run -e TZ=Australia/Sydney -d --privileged -p 8082:8082 -p 80:80 --name altair8800 -v altair-disks:/Altairdocker/AltairHL_emulator/Disks --rm glovebox/altair8800-pisense:latest
+    docker run -e TZ=Australia/Sydney \
+    -e MQTT_HOST=YOUR_MQTT_HOST -e MQTT_PORT=YOUR_MQTT_PORT -e MQTT_CLIENT_ID=YOUR_MQTT_CLIENT_ID \
+    -e OPEN_WEATHER_MAP_API_KEY=YOUR_OPEN_WEATHER_MAP_API_KEY \
+    -d --privileged --user root \
+    -p 8082:8082 -p 80:80 \
+    --name altair8800 \
+    -v altair-disks:/app/Disks \
+    --device=/dev/i2c-1 \
+    --rm glovebox/altair8800-pisense:latest
     ```
 
 ## Open the Web Terminal
@@ -62,7 +72,6 @@ Open the Web Terminal to access the Altair emulator. Follow these steps.
     * Navigate to `http://hostname_or_ip_address` if you deployed the Altair emulator on a remote computer.
 
     ![The following image is of the web terminal command prompt](../20-fundamentals/img/web_terminal_intro.png)
-
 
 ## Docker tips and tricks
 
@@ -104,17 +113,17 @@ docker volume inspect altair-disks
 sudo ls /var/lib/docker/volumes/altair-disks/_data -all
 ```
 
-### To remove the persistent storage volume.
+### To remove the persistent storage volume
 
 ```bash
 docker volume rm altair-disks
 ```
 
-## Trouble shooting Raspberry Pi issues
+<!-- ## Trouble shooting Raspberry Pi issues
 
 1. Ensure strong WiFi connection
 1. Disabling the WiFi power management can improve stability
 
     ```bash
     sudo iw wlan0 set power_save off
-    ```
+    ``` -->
